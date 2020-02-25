@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Title_Text
+  - Start_Button
   layers:
   - Default
   - TransparentFX
