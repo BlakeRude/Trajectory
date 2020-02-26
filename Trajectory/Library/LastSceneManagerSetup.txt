@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/src/Noah/Network Test.unity
+- path: Assets/prefabs/Yingruo/SeaScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
