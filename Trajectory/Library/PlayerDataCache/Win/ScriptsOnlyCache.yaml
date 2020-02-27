@@ -2,6 +2,8 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Back
+    - FreeCam
+    - PlayerController
     - SeaSelect
     - SettingsCog
     - SinglePlayerButton
@@ -16,6 +18,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
+    com.unity.multiplayer-hlapi.Runtime.dll:
+    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/prefabs/Yingruo/SeaScene.unity:
     - Class: 1
@@ -36,13 +40,23 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11232}
+    - Class: 114
+      Script: {instanceID: 25116}
+    - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -74,23 +88,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9686}
+      Script: {instanceID: 9690}
     - Class: 114
-      Script: {instanceID: 9696}
+      Script: {instanceID: 9700}
     - Class: 114
-      Script: {instanceID: 9864}
+      Script: {instanceID: 9868}
     - Class: 114
-      Script: {instanceID: 9912}
+      Script: {instanceID: 9916}
     - Class: 114
-      Script: {instanceID: 10334}
+      Script: {instanceID: 10338}
     - Class: 114
-      Script: {instanceID: 10748}
+      Script: {instanceID: 10752}
     - Class: 114
-      Script: {instanceID: 10960}
+      Script: {instanceID: 10964}
     - Class: 114
-      Script: {instanceID: 11244}
+      Script: {instanceID: 11248}
     - Class: 114
-      Script: {instanceID: 11640}
+      Script: {instanceID: 11644}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -125,21 +139,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9686}
+      Script: {instanceID: 9690}
     - Class: 114
-      Script: {instanceID: 9864}
+      Script: {instanceID: 9868}
     - Class: 114
-      Script: {instanceID: 9912}
+      Script: {instanceID: 9916}
     - Class: 114
-      Script: {instanceID: 9970}
+      Script: {instanceID: 9974}
     - Class: 114
-      Script: {instanceID: 10334}
+      Script: {instanceID: 10338}
     - Class: 114
-      Script: {instanceID: 10748}
+      Script: {instanceID: 10752}
     - Class: 114
-      Script: {instanceID: 11244}
+      Script: {instanceID: 11248}
     - Class: 114
-      Script: {instanceID: 11640}
+      Script: {instanceID: 11644}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -174,21 +188,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9686}
+      Script: {instanceID: 9690}
     - Class: 114
-      Script: {instanceID: 9864}
+      Script: {instanceID: 9868}
     - Class: 114
-      Script: {instanceID: 9912}
+      Script: {instanceID: 9916}
     - Class: 114
-      Script: {instanceID: 10088}
+      Script: {instanceID: 10092}
     - Class: 114
-      Script: {instanceID: 10334}
+      Script: {instanceID: 10338}
     - Class: 114
-      Script: {instanceID: 10748}
+      Script: {instanceID: 10752}
     - Class: 114
-      Script: {instanceID: 11244}
+      Script: {instanceID: 11248}
     - Class: 114
-      Script: {instanceID: 11640}
+      Script: {instanceID: 11644}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -750,10 +764,16 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 6b6eb1c6ca08aa83c664b1911a4835e7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FreeCam
   platform: 5
   scenePathNames:
   - Assets/src/Blake/Main Menu/Main Menu.unity
   - Assets/src/Blake/World Select Menu/SingleSelect.unity
   - Assets/prefabs/Yingruo/SeaScene.unity
   - Assets/src/Blake/Settings Menu/SettingsMenu.unity
-  playerPath: C:/Users/blake/Documents/GitHub/Trajectory/Trajectory/Build/Trajectory.exe
+  playerPath: C:/Users/Satan/Desktop/Trajectory.exe
