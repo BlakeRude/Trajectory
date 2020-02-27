@@ -87,9 +87,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10960}
     - Class: 114
-      Script: {instanceID: 11240}
+      Script: {instanceID: 11244}
     - Class: 114
-      Script: {instanceID: 11636}
+      Script: {instanceID: 11640}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -136,9 +136,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10748}
     - Class: 114
-      Script: {instanceID: 11240}
+      Script: {instanceID: 11244}
     - Class: 114
-      Script: {instanceID: 11636}
+      Script: {instanceID: 11640}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -185,9 +185,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10748}
     - Class: 114
-      Script: {instanceID: 11240}
+      Script: {instanceID: 11244}
     - Class: 114
-      Script: {instanceID: 11636}
+      Script: {instanceID: 11640}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -583,6 +583,12 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
+      Hash: 77363df1ea60b9650891fbe54847e14b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraController
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
@@ -593,6 +599,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 1d381f24101058602cc3469224ed6b77
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerController
   - hash:
       serializedVersion: 2
       Hash: f336e086360abe49a3323e5f1583c35a
