@@ -2261,6 +2261,7 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -4.728, y: 335.503, z: 2.5370002}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &1601227293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2284,6 +2285,8 @@ MonoBehaviour:
   zoomSensitivity: 10
   fastZoomSensitivity: 50
 >>>>>>> a645b25d9190e97a33f013d794a627c38357c519
+=======
+>>>>>>> parent of 1524739... 。。。
 =======
 >>>>>>> parent of 1524739... 。。。
 --- !u!1001 &1768739614
