@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     Rigidbody rb;
-    Weapon cannon;
 
     public float speed;
 
@@ -15,16 +14,14 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        cannon = GameObject.Find("Cannon").GetComponent<Weapon>();
     }
 
     void FixedUpdate()
     {
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
-        if(!cannon.currentlyAiming) {
-            MovePlayer(h, v); 
-        }  
+
+        MovePlayer(h, v);   
     }
 
     private void MovePlayer(float horizontal, float vertical)
