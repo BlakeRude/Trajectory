@@ -1,9 +1,1 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":0.0,"y":0.0,"z":0.0},"rotation":{"x":-0.08717229217290878,"y":0.8995905518531799,"z":-0.21045254170894624,"w":-0.37262260913848879},"size":10.0,"orthographic":false}
-=======
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":11152.2119140625,"y":792.9564208984375,"z":1196.305419921875},"rotation":{"x":0.2724170386791229,"y":-0.02539631724357605,"z":0.007196294609457254,"w":0.9618304967880249},"size":141405.40625,"orthographic":false}
->>>>>>> parent of 6d5f588... 。。。
-=======
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":8814.486328125,"y":-907.7095336914063,"z":23.944421768188478},"rotation":{"x":0.2724170386791229,"y":-0.02539631724357605,"z":0.007196294609457254,"w":0.9618304967880249},"size":6798.96826171875,"orthographic":false}
->>>>>>> parent of 79ef94e... 。。。
