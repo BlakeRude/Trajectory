@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Title_Text
   - Start_Button
+  - Land_Button
+  - Sea_Button
+  - Air_Button
   layers:
   - Default
   - TransparentFX
