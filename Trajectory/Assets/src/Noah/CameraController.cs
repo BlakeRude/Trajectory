@@ -5,7 +5,6 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     private const float Y_ANGLE_MIN = 5.0f;
-    //private const float Y_ANGLE_MAX = 50.0f;
 
     public Transform lookAt;
     public Transform camTransform;
@@ -14,9 +13,7 @@ public class CameraController : MonoBehaviour
 
     public float distance = 10.0f;
     private float curX = 0;
-    //private float curY = 0;
     public float sensitivityX = 0;
-    //private float sensitivityY = 0;
  
     void Start()
     {
@@ -27,9 +24,7 @@ public class CameraController : MonoBehaviour
     private void Update()
     {
         curX += Input.GetAxis("Mouse X") * sensitivityX;
-        //curY += Input.GetAxis("Mouse Y");
 
-        //curY = Mathf.Clamp(curY, Y_ANGLE_MIN, Y_ANGLE_MAX);
     }
 
     //waits for player movement

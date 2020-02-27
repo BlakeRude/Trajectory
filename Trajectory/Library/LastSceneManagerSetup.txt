@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/src/Blake/Main Menu/Main Menu.unity
+=======
+- path: Assets/prefabs/Yingruo/SeaScene.unity
+>>>>>>> 2cda585a28f451101131884ae4830e744aeb7b15
   isLoaded: 1
   isActive: 1
   isSubScene: 0
