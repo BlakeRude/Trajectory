@@ -6,7 +6,6 @@ public class PlayerController : MonoBehaviour
 {
     Rigidbody rb;
 
-    public Camera cam;
     public float speed;
 
     private Vector3 moveDirection = Vector3.zero;
@@ -15,16 +14,21 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        cam = GetComponent<Camera>();
     }
 
     void FixedUpdate()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
+        float h = Input.GetAxis("Horizontal");
+        float v = Input.GetAxis("Vertical");
 
-        Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+        MovePlayer(h, v);   
+    }
 
+    private void MovePlayer(float horizontal, float vertical)
+    {
+        
+        Vector3 movement = new Vector3(horizontal, 0.0f, vertical);
         rb.AddForce(movement * speed);
     }
 }
+
