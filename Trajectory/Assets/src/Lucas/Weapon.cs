@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    private bool currentlyAiming = true;    //should default to false, but testing
+    public bool currentlyAiming = false;
     private float aimSpeed = 0.5f;
-    private float minEW = -0.5f;
-    private float maxEW = 0.5f;
-    private float minNS = -0.4f;
-    private float maxNS = 0.1f;
-    private float firePower = 75.0f;
+    private float minEW = -0.7f;
+    private float maxEW = -0.2f;
+    private float minNS = -0.6f;
+    private float maxNS = -0.1f;
+    private float firePower = 500.0f;
 
     private Ammo loadedAmmo;
     private GameObject cannon;
@@ -24,6 +24,14 @@ public class Weapon : MonoBehaviour
 
     public void Update()
     {
+        if(Input.GetKey("z")) {
+            if(currentlyAiming) {
+                currentlyAiming = false;
+            } else {
+                currentlyAiming = true;
+            }
+        }
+
         float ew = Input.GetAxis("Horizontal");
         if(ew != 0 && currentlyAiming) {
             AimEW(ew);
@@ -42,7 +50,10 @@ public class Weapon : MonoBehaviour
 
     public void LoadAmmo(Ammo ammoToLoad) {
         if(loadedAmmo == null) {
-            ammoToLoad.transform.position = cannonBody.transform.position;
+            Vector3 raw = cannonBody.transform.position;
+            Vector3 pos = new Vector3(raw.x-80,raw.y+90,raw.z+40);
+            ammoToLoad.transform.position = pos;
+            ammoToLoad.GetComponent<Rigidbody>().useGravity = false;
             loadedAmmo = ammoToLoad;
         }
     }
@@ -51,8 +62,9 @@ public class Weapon : MonoBehaviour
     {
         Quaternion cannonRotation = cannon.transform.rotation;
         Quaternion cannonBodyRotation = cannonBody.transform.rotation;
-
-        Vector3 fireVector = new Vector3(cannonRotation.y*firePower, -cannonBodyRotation.x*firePower, firePower);
+        Debug.Log(cannonRotation);
+        Vector3 fireVector = new Vector3(cannonRotation.y*firePower, -cannonBodyRotation.x*firePower, cannonRotation.x*firePower);
+        loadedAmmo.GetComponent<Rigidbody>().useGravity = true;
         loadedAmmo.GetComponent<Rigidbody>().AddForce(fireVector, ForceMode.Impulse);
         loadedAmmo = null;
     }
