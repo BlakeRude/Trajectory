@@ -24,8 +24,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+<<<<<<< HEAD
     - Class: 104
       Script: {instanceID: 0}
+=======
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+>>>>>>> 3010786c12ffa33e942307313574e3eb9a128b79
     - Class: 157
       Script: {instanceID: 0}
     Assets/src/Blake/Main Menu/Main Menu.unity:
@@ -70,9 +81,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10968}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 11252}
     - Class: 114
       Script: {instanceID: 11648}
+=======
+      Script: {instanceID: 11244}
+    - Class: 114
+      Script: {instanceID: 11640}
+>>>>>>> 3010786c12ffa33e942307313574e3eb9a128b79
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -119,9 +136,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10756}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 11252}
     - Class: 114
       Script: {instanceID: 11648}
+=======
+      Script: {instanceID: 11244}
+    - Class: 114
+      Script: {instanceID: 11640}
+>>>>>>> 3010786c12ffa33e942307313574e3eb9a128b79
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -168,9 +191,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10756}
     - Class: 114
+<<<<<<< HEAD
       Script: {instanceID: 11252}
     - Class: 114
       Script: {instanceID: 11648}
+=======
+      Script: {instanceID: 11244}
+    - Class: 114
+      Script: {instanceID: 11640}
+>>>>>>> 3010786c12ffa33e942307313574e3eb9a128b79
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -762,4 +791,8 @@ ScriptsOnlyBuild:
   - Assets/src/Blake/World Select Menu/SingleSelect.unity
   - Assets/prefabs/Yingruo/SeaScene.unity
   - Assets/src/Blake/Settings Menu/SettingsMenu.unity
+<<<<<<< HEAD
   playerPath: /Users/a98965/Documents/GitHub/Trajectory/Trajectory/MACOS/MACOS.app
+=======
+  playerPath: /Users/a98965/Desktop/Longshot_1.app
+>>>>>>> 3010786c12ffa33e942307313574e3eb9a128b79
