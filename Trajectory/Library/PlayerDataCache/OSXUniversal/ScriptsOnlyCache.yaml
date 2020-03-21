@@ -1,14 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - Ammo
     - Back
-    - FreeCam
-    - PlayerController
     - SeaSelect
     - SettingsCog
     - SinglePlayerButton
-    - Weapon
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -22,55 +18,13 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/prefabs/Yingruo/SeaScene.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
     - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
       Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 90
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
     - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 11114}
-    - Class: 114
-      Script: {instanceID: 11158}
-    - Class: 114
-      Script: {instanceID: 11232}
-    - Class: 114
-      Script: {instanceID: 11304}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 135
-      Script: {instanceID: 0}
-    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -102,23 +56,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9686}
+      Script: {instanceID: 9694}
     - Class: 114
-      Script: {instanceID: 9696}
+      Script: {instanceID: 9704}
     - Class: 114
-      Script: {instanceID: 9864}
+      Script: {instanceID: 9872}
     - Class: 114
-      Script: {instanceID: 9912}
+      Script: {instanceID: 9920}
     - Class: 114
-      Script: {instanceID: 10334}
+      Script: {instanceID: 10342}
     - Class: 114
-      Script: {instanceID: 10748}
+      Script: {instanceID: 10756}
     - Class: 114
-      Script: {instanceID: 10960}
+      Script: {instanceID: 10968}
     - Class: 114
-      Script: {instanceID: 11248}
+      Script: {instanceID: 11252}
     - Class: 114
-      Script: {instanceID: 11646}
+      Script: {instanceID: 11648}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -153,21 +107,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9686}
+      Script: {instanceID: 9694}
     - Class: 114
-      Script: {instanceID: 9864}
+      Script: {instanceID: 9872}
     - Class: 114
-      Script: {instanceID: 9912}
+      Script: {instanceID: 9920}
     - Class: 114
-      Script: {instanceID: 9970}
+      Script: {instanceID: 9978}
     - Class: 114
-      Script: {instanceID: 10334}
+      Script: {instanceID: 10342}
     - Class: 114
-      Script: {instanceID: 10748}
+      Script: {instanceID: 10756}
     - Class: 114
-      Script: {instanceID: 11248}
+      Script: {instanceID: 11252}
     - Class: 114
-      Script: {instanceID: 11646}
+      Script: {instanceID: 11648}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -202,21 +156,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9686}
+      Script: {instanceID: 9694}
     - Class: 114
-      Script: {instanceID: 9864}
+      Script: {instanceID: 9872}
     - Class: 114
-      Script: {instanceID: 9912}
+      Script: {instanceID: 9920}
     - Class: 114
-      Script: {instanceID: 10088}
+      Script: {instanceID: 10096}
     - Class: 114
-      Script: {instanceID: 10334}
+      Script: {instanceID: 10342}
     - Class: 114
-      Script: {instanceID: 10748}
+      Script: {instanceID: 10756}
     - Class: 114
-      Script: {instanceID: 11248}
+      Script: {instanceID: 11252}
     - Class: 114
-      Script: {instanceID: 11646}
+      Script: {instanceID: 11648}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -618,22 +572,10 @@ ScriptsOnlyBuild:
     className: CameraController
   - hash:
       serializedVersion: 2
-      Hash: 5b7de63c1df26b83b6c9c5638867eeb3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Weapon
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
     className: NetworkBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 6b6eb1c6ca08aa83c664b1911a4835e7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FreeCam
   - hash:
       serializedVersion: 2
       Hash: 3b760e6526e13f7504f59e210145899a
@@ -664,12 +606,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
-  - hash:
-      serializedVersion: 2
-      Hash: 857653d7ddcd79692cf407e8ab43ebdd
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Ammo
   - hash:
       serializedVersion: 2
       Hash: 1dcb82730d983b77cec736c6ef19f814
@@ -796,10 +732,34 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e721a49d7cb61c77e776fec9305c4cb6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ThirdPerson
+  - hash:
+      serializedVersion: 2
+      Hash: 5b7de63c1df26b83b6c9c5638867eeb3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Weapon
+  - hash:
+      serializedVersion: 2
+      Hash: 6b6eb1c6ca08aa83c664b1911a4835e7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FreeCam
+  - hash:
+      serializedVersion: 2
+      Hash: 857653d7ddcd79692cf407e8ab43ebdd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Ammo
   platform: 2
   scenePathNames:
   - Assets/src/Blake/Main Menu/Main Menu.unity
   - Assets/src/Blake/World Select Menu/SingleSelect.unity
   - Assets/prefabs/Yingruo/SeaScene.unity
   - Assets/src/Blake/Settings Menu/SettingsMenu.unity
-  playerPath: C:/Users/Blake/Documents/GitHub/Trajectory/Trajectory/MACOSX.app
+  playerPath: /Users/a98965/Documents/GitHub/Trajectory/Trajectory/MACOS/MACOS.app
