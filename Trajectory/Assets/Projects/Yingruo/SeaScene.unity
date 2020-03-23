@@ -1,0 +1,3065 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+--- !u!1 &227343783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 227343787}
+  - component: {fileID: 227343786}
+  - component: {fileID: 227343785}
+  - component: {fileID: 227343784}
+  m_Layer: 0
+  m_Name: HUMAN
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &227343784
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227343783}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &227343785
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227343783}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &227343786
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227343783}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &227343787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227343783}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1938.5, y: -40.6, z: 3168}
+  m_LocalScale: {x: 0.3, y: 1.8, z: 0.3}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+--- !u!1001 &6771498
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8640135643697579888, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8640135643697579888, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8640135643697579888, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -7362905031452578539, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea8f9d1ac28c44177bc059251cab9c09, type: 2}
+    - target: {fileID: -6844302333521811684, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea8f9d1ac28c44177bc059251cab9c09, type: 2}
+    - target: {fileID: -5213975841262615214, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.81
+      objectReference: {fileID: 0}
+    - target: {fileID: -5213975841262615214, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -5213975841262615214, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.45
+      objectReference: {fileID: 0}
+    - target: {fileID: -4237831877329963709, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea8f9d1ac28c44177bc059251cab9c09, type: 2}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16210
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.0932384e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 689
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_Name
+      value: rocks-low-poly (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323030290482425788, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323030290482425788, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323030290482425788, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323030290482425788, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -187.283
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323030290482425788, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 11.902985
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323030290482425788, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -155.966
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323030290482425788, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.20021868
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323030290482425788, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.97222155
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323030290482425788, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.08332786
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323030290482425788, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.08805795
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452750233919700494, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452750233919700494, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254569135361515253, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254569135361515253, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6254569135361515253, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 6639997050699807714, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea8f9d1ac28c44177bc059251cab9c09, type: 2}
+    - target: {fileID: 6772139283994635935, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea8f9d1ac28c44177bc059251cab9c09, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60800f830361341e28f0c8b741219229, type: 3}
+--- !u!1001 &170188602
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 31141
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -94
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -40669
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8615528
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.507668
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 118.98301
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_Name
+      value: Small Tropical Island (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d03e0e62fb814867a854b5e56251b89, type: 3}
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+--- !u!1001 &227685419
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 958073762}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: -363.82812
+=======
+      value: 8115
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 182.66547
+=======
+      value: -1
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 161.38037
+=======
+      value: -878
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.18166146
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.68337345
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.6833733
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.18166144
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e,
+        type: 3}
+      propertyPath: m_RootOrder
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 13
+=======
+      value: 16
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -150.227
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e,
+        type: 3}
+      propertyPath: m_LocalScale.x
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 30
+=======
+      value: 500
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 30
+=======
+      value: 500
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e,
+        type: 3}
+      propertyPath: m_LocalScale.z
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 30
+=======
+      value: 500
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -3008852661168567155, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cecca49a7d0a746e9bcca22e629d7306, type: 2}
+    - target: {fileID: -1504981713932161579, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ab70dfbc6a5e349d98d2d044ebb745e8, type: 2}
+    - target: {fileID: -927199367670048503, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e,
+        type: 3}
+      propertyPath: m_Name
+      value: Ship_free (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2348546927395479825, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 399677b2736a1445bbab3709cc41c007, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e, type: 3}
+--- !u!4 &227685420 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e,
+    type: 3}
+  m_PrefabInstance: {fileID: 227685419}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &232838498
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 958073762}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 932007f9430a7485ab4684c4bd0f934d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: -500.62793
+=======
+      value: 30505
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 932007f9430a7485ab4684c4bd0f934d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 213.00546
+=======
+      value: 950
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 932007f9430a7485ab4684c4bd0f934d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: -1795.8196
+=======
+      value: -38874
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 932007f9430a7485ab4684c4bd0f934d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.49855867
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 932007f9430a7485ab4684c4bd0f934d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 932007f9430a7485ab4684c4bd0f934d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 932007f9430a7485ab4684c4bd0f934d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.86685604
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 932007f9430a7485ab4684c4bd0f934d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 932007f9430a7485ab4684c4bd0f934d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -59.809002
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 932007f9430a7485ab4684c4bd0f934d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 932007f9430a7485ab4684c4bd0f934d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 932007f9430a7485ab4684c4bd0f934d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 932007f9430a7485ab4684c4bd0f934d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 0.5000002
+=======
+      value: 22
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 932007f9430a7485ab4684c4bd0f934d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 0.5000002
+=======
+      value: 22
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 932007f9430a7485ab4684c4bd0f934d,
+        type: 3}
+      propertyPath: m_Name
+      value: CoconutPalm
+      objectReference: {fileID: 0}
+    - target: {fileID: 5964236948173039382, guid: 932007f9430a7485ab4684c4bd0f934d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: c907879ce0bad48cd8965eb5b49e7e6e, type: 2}
+    - target: {fileID: 7778646413633457777, guid: 932007f9430a7485ab4684c4bd0f934d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 90bb80f3d6b0f463389a0fb9d594f463, type: 2}
+    - target: {fileID: 8268700852806785228, guid: 932007f9430a7485ab4684c4bd0f934d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f474e1f0694b4aab8aaa8bdbdb78863, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 932007f9430a7485ab4684c4bd0f934d, type: 3}
+--- !u!4 &232838499 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 932007f9430a7485ab4684c4bd0f934d,
+    type: 3}
+  m_PrefabInstance: {fileID: 232838498}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &275389952
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 958073762}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 301.17188
+=======
+      value: 15271
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 172.50546
+=======
+      value: -71
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 85.38037
+=======
+      value: 5459
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.14292175
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98973405
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_RootOrder
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 11
+=======
+      value: 13
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 16.434
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_Name
+      value: Small Tropical Island (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d03e0e62fb814867a854b5e56251b89, type: 3}
+--- !u!4 &275389953 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+    type: 3}
+  m_PrefabInstance: {fileID: 275389952}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &280267094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 280267098}
+  - component: {fileID: 280267097}
+  - component: {fileID: 280267096}
+  - component: {fileID: 280267095}
+  m_Layer: 0
+  m_Name: HUMAN (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &280267095
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280267094}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &280267096
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280267094}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &280267097
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280267094}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &280267098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280267094}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1937.37, y: -43.5, z: 3172.51}
+  m_LocalScale: {x: 0.3, y: 1.8, z: 0.3}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &427902641
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 958073762}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: d116bdd0969e24adbb3ee331effa63ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18042.828
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d116bdd0969e24adbb3ee331effa63ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 181.10547
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d116bdd0969e24adbb3ee331effa63ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -22125.62
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d116bdd0969e24adbb3ee331effa63ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d116bdd0969e24adbb3ee331effa63ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d116bdd0969e24adbb3ee331effa63ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d116bdd0969e24adbb3ee331effa63ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d116bdd0969e24adbb3ee331effa63ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d116bdd0969e24adbb3ee331effa63ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d116bdd0969e24adbb3ee331effa63ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d116bdd0969e24adbb3ee331effa63ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d116bdd0969e24adbb3ee331effa63ab,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d116bdd0969e24adbb3ee331effa63ab,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d116bdd0969e24adbb3ee331effa63ab,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d116bdd0969e24adbb3ee331effa63ab,
+        type: 3}
+      propertyPath: m_Name
+      value: RockIsland
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d116bdd0969e24adbb3ee331effa63ab, type: 3}
+--- !u!4 &427902642 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: d116bdd0969e24adbb3ee331effa63ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 427902641}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &821398908
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 958073762}
+    m_Modifications:
+    - target: {fileID: -5975033157549033438, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5975033157549033438, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.41121316
+      objectReference: {fileID: 0}
+    - target: {fileID: -5975033157549033438, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9115392
+      objectReference: {fileID: 0}
+    - target: {fileID: -5975033157549033438, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 48.562004
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: -595.8281
+=======
+      value: -21117
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 175.10547
+=======
+      value: -37
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: -1669.6196
+=======
+      value: 14231
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.19368325
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98106414
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_RootOrder
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 12
+=======
+      value: 14
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 22.336
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_Name
+      value: Small Tropical Island
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac7888936601841c083998135dff076b, type: 3}
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+--- !u!4 &821398909 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+    type: 3}
+  m_PrefabInstance: {fileID: 821398908}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &958073761
+GameObject:
+=======
+--- !u!1 &865418838 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 855754e9b8f084fa18a75b58f1dc51c7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1296039019}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &865418839
+BoxCollider:
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 958073762}
+  m_Layer: 0
+  m_Name: Assets_For_Scale
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &958073762
+Transform:
+=======
+  m_GameObject: {fileID: 865418838}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &865418840
+Rigidbody:
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+  m_GameObject: {fileID: 958073761}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1886, y: -110.25, z: 3185}
+  m_LocalScale: {x: 0.18715006, y: 0.18715006, z: 0.18715006}
+  m_Children:
+  - {fileID: 1900583033}
+  - {fileID: 1296039020}
+  - {fileID: 1904145278}
+  - {fileID: 1791443772}
+  - {fileID: 1362964494}
+  - {fileID: 232838499}
+  - {fileID: 1291685042}
+  - {fileID: 1768739615}
+  - {fileID: 2002890533}
+  - {fileID: 1140647229}
+  - {fileID: 427902642}
+  - {fileID: 275389953}
+  - {fileID: 821398909}
+  - {fileID: 227685420}
+  - {fileID: 2020788101}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_GameObject: {fileID: 865418838}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+--- !u!1 &1108757002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1108757004}
+  - component: {fileID: 1108757003}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1108757003
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108757002}
+  m_Enabled: 1
+  serializedVersion: 9
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1.3
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.506
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1108757004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108757002}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+  m_RootOrder: 1
+=======
+  m_RootOrder: 15
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1124721233 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e,
+    type: 3}
+  m_PrefabInstance: {fileID: 227685419}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1124721234
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124721233}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8547471881871753710, guid: dcfa25cfcf2bc466d8d7a0f9ddcb300e, type: 3}
+--- !u!1001 &1140647228
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 958073762}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 114.171875
+=======
+      value: 9765
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 180.00546
+=======
+      value: -92
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 48.38037
+=======
+      value: 4386
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.49906495
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8665646
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_RootOrder
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 9
+=======
+      value: 11
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 59.876003
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_Name
+      value: Small Tropical Island (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d03e0e62fb814867a854b5e56251b89, type: 3}
+--- !u!4 &1140647229 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+    type: 3}
+  m_PrefabInstance: {fileID: 1140647228}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1291685041
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 958073762}
+    m_Modifications:
+    - target: {fileID: -8640135643697579888, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8640135643697579888, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8640135643697579888, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -7362905031452578539, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 44a1d52c6a3f145bfaa8ac1192df7e2b, type: 2}
+    - target: {fileID: -6844302333521811684, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 44a1d52c6a3f145bfaa8ac1192df7e2b, type: 2}
+    - target: {fileID: -4237831877329963709, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: da53c890a132b43c4a0cd6a0bce200d0, type: 2}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -40774.83
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 28.105469
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 21785.38
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.3230584
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.94637907
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 37.696003
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_Name
+      value: rocks-low-poly
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323030290482425788, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323030290482425788, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4323030290482425788, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452750233919700494, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452750233919700494, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452750233919700494, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6639997050699807714, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: da53c890a132b43c4a0cd6a0bce200d0, type: 2}
+    - target: {fileID: 6772139283994635935, guid: 60800f830361341e28f0c8b741219229,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 44a1d52c6a3f145bfaa8ac1192df7e2b, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60800f830361341e28f0c8b741219229, type: 3}
+--- !u!4 &1291685042 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 60800f830361341e28f0c8b741219229,
+    type: 3}
+  m_PrefabInstance: {fileID: 1291685041}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1296039019
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 958073762}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 855754e9b8f084fa18a75b58f1dc51c7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: -374.61
+=======
+      value: 7953
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 855754e9b8f084fa18a75b58f1dc51c7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 191.7
+=======
+      value: 284
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 855754e9b8f084fa18a75b58f1dc51c7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 162.26
+=======
+      value: -848
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 855754e9b8f084fa18a75b58f1dc51c7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 855754e9b8f084fa18a75b58f1dc51c7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9967204
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 855754e9b8f084fa18a75b58f1dc51c7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 855754e9b8f084fa18a75b58f1dc51c7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.08092338
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 855754e9b8f084fa18a75b58f1dc51c7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 855754e9b8f084fa18a75b58f1dc51c7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 855754e9b8f084fa18a75b58f1dc51c7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -189.28299
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 855754e9b8f084fa18a75b58f1dc51c7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 855754e9b8f084fa18a75b58f1dc51c7,
+        type: 3}
+      propertyPath: m_LocalScale.x
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 5.5
+=======
+      value: 100
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 855754e9b8f084fa18a75b58f1dc51c7,
+        type: 3}
+      propertyPath: m_LocalScale.y
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 5.5
+=======
+      value: 180
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 855754e9b8f084fa18a75b58f1dc51c7,
+        type: 3}
+      propertyPath: m_LocalScale.z
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 5.5
+=======
+      value: 100
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4078929179306918495, guid: 855754e9b8f084fa18a75b58f1dc51c7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 49e6ddd3e41114d3e87ce8f4f8fc2c7c, type: 2}
+    - target: {fileID: -927199367670048503, guid: 855754e9b8f084fa18a75b58f1dc51c7,
+        type: 3}
+      propertyPath: m_Name
+      value: lumberJack
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 855754e9b8f084fa18a75b58f1dc51c7, type: 3}
+--- !u!4 &1296039020 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 855754e9b8f084fa18a75b58f1dc51c7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1296039019}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1362964493
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 958073762}
+    m_Modifications:
+    - target: {fileID: -8277064854309609534, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: -8077955567153436957, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c9f6e663f47ef41a399eca395ba8299b, type: 2}
+    - target: {fileID: -8037590491334192999, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c9f6e663f47ef41a399eca395ba8299b, type: 2}
+    - target: {fileID: -7097519686134018495, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f96df34e7160f41e08511e430af2e3b4, type: 2}
+    - target: {fileID: -6881724485477752752, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: -6804424003329177439, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a25e6d4846b3943fd971c547c7153584, type: 2}
+    - target: {fileID: -6690830499782420071, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e0bd6f75679e8406a8319105bd4d8172, type: 2}
+    - target: {fileID: -6474563007643497245, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ab70dfbc6a5e349d98d2d044ebb745e8, type: 2}
+    - target: {fileID: -6146601578844146945, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: -6056865019761244913, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: -5580916350219692131, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: -4216859302048453862, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 278.17188
+=======
+      value: 11422
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 183.69547
+=======
+      value: 114
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: -67.61963
+=======
+      value: 2209
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9983628
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.057199117
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -173.442
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_LocalScale.x
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 0.049999986
+=======
+      value: 1
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_LocalScale.y
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 0.049999993
+=======
+      value: 1.2
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_LocalScale.z
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 0.049999986
+=======
+      value: 1.2
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -3593945733793706862, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: -3255643355379017767, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c9f6e663f47ef41a399eca395ba8299b, type: 2}
+    - target: {fileID: -2943793054423453921, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: -2520922206945994363, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c9f6e663f47ef41a399eca395ba8299b, type: 2}
+    - target: {fileID: -2392030072033863595, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: -1951538297860722993, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c9f6e663f47ef41a399eca395ba8299b, type: 2}
+    - target: {fileID: -1775038135813895980, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: -927199367670048503, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Name
+      value: lake
+      objectReference: {fileID: 0}
+    - target: {fileID: -784393877558968969, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: -752852941253110060, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0c374c4b8e3f34e9f82c8b55a6f53db9, type: 2}
+    - target: {fileID: -678655025697594940, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: -457681638348027081, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c9f6e663f47ef41a399eca395ba8299b, type: 2}
+    - target: {fileID: -34554118861570737, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -41.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -34554118861570737, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 913716504262147383, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 913716504262147383, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -99.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 913716504262147383, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740271780838707924, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: 2002236226054179482, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: 2359405344002743547, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: 2639872586051000187, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73a46bd78782e45c2821a759f3d44b15, type: 2}
+    - target: {fileID: 5448579309193325848, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6eded848abcdc456e918240c9bf3abaa, type: 2}
+    - target: {fileID: 5452068790998213776, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: 5552343918351836613, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: 5730179304232499566, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: 5886502845473324906, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: 6993051982550269841, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: 7074371627893864066, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: 7150398363284164970, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ab70dfbc6a5e349d98d2d044ebb745e8, type: 2}
+    - target: {fileID: 7716302359146345849, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: 7796965159598972112, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c9f6e663f47ef41a399eca395ba8299b, type: 2}
+    - target: {fileID: 7801655267501062854, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: 8405317065323677370, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: 8412516483601674962, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cb6285b87a3da40659556a763bf6147f, type: 2}
+    - target: {fileID: 8623602228590123651, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ab70dfbc6a5e349d98d2d044ebb745e8, type: 2}
+    - target: {fileID: 8701170713928707592, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6eded848abcdc456e918240c9bf3abaa, type: 2}
+    - target: {fileID: 8983404168190243216, guid: d9f0a4760b0dc4f1b8de314c72465768,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ab70dfbc6a5e349d98d2d044ebb745e8, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d9f0a4760b0dc4f1b8de314c72465768, type: 3}
+--- !u!4 &1362964494 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: d9f0a4760b0dc4f1b8de314c72465768,
+    type: 3}
+  m_PrefabInstance: {fileID: 1362964493}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1486710173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1486710177}
+  - component: {fileID: 1486710176}
+  - component: {fileID: 1486710175}
+  - component: {fileID: 1486710174}
+  m_Layer: 0
+  m_Name: Sea
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &1486710174
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486710173}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1486710175
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486710173}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 73a46bd78782e45c2821a759f3d44b15, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1486710176
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486710173}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1486710177
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486710173}
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1886, y: -76.328, z: 3185}
+  m_LocalScale: {x: 1040.1987, y: 1040.1987, z: 1040.1987}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.175089, y: 0, z: 65.017494}
+  m_LocalScale: {x: 20000, y: 15000, z: 15000}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1601227289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1601227292}
+  - component: {fileID: 1601227291}
+  - component: {fileID: 1601227290}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1601227290
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601227289}
+  m_Enabled: 1
+--- !u!20 &1601227291
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601227289}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000000
+  field of view: 26.991467
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1601227292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601227289}
+  m_LocalRotation: {x: 0.044990182, y: 0.21102914, z: -0.0128658125, w: -0.9763591}
+  m_LocalPosition: {x: 9351, y: 584, z: -4098}
+  m_LocalScale: {x: 1, y: 1, z: 8.405223}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -4.728, y: 335.503, z: 2.5370002}
+--- !u!1001 &1768739614
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 958073762}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 224.17188
+=======
+      value: -23403
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 176.10547
+=======
+      value: -279
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 194.38037
+=======
+      value: 19053
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.31299186
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.94975585
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_RootOrder
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 7
+=======
+      value: 9
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -36.479
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalScale.x
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 0.30000007
+=======
+      value: 15
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalScale.z
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 0.30000007
+=======
+      value: 15
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_Name
+      value: Small Tropical Island (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d03e0e62fb814867a854b5e56251b89, type: 3}
+--- !u!4 &1768739615 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+    type: 3}
+  m_PrefabInstance: {fileID: 1768739614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1791443771
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 958073762}
+    m_Modifications:
+    - target: {fileID: -7507586473468137400, guid: dae66f542e3c244dfad200eb6dac4979,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2955661012f8849949c47115fa011bb6, type: 2}
+    - target: {fileID: -4216859302048453862, guid: dae66f542e3c244dfad200eb6dac4979,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 170.07227
+=======
+      value: 12119
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dae66f542e3c244dfad200eb6dac4979,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 189.00546
+=======
+      value: 88
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dae66f542e3c244dfad200eb6dac4979,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: -11.619629
+=======
+      value: 2265
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dae66f542e3c244dfad200eb6dac4979,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dae66f542e3c244dfad200eb6dac4979,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9031409
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dae66f542e3c244dfad200eb6dac4979,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dae66f542e3c244dfad200eb6dac4979,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.42934433
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dae66f542e3c244dfad200eb6dac4979,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dae66f542e3c244dfad200eb6dac4979,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dae66f542e3c244dfad200eb6dac4979,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -129.14801
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dae66f542e3c244dfad200eb6dac4979,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dae66f542e3c244dfad200eb6dac4979,
+        type: 3}
+      propertyPath: m_LocalScale.x
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 6.1306
+=======
+      value: 100
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dae66f542e3c244dfad200eb6dac4979,
+        type: 3}
+      propertyPath: m_LocalScale.y
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 6.1306
+=======
+      value: 100
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: dae66f542e3c244dfad200eb6dac4979,
+        type: 3}
+      propertyPath: m_LocalScale.z
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 6.1306
+=======
+      value: 100
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -2649016812096886938, guid: dae66f542e3c244dfad200eb6dac4979,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2955661012f8849949c47115fa011bb6, type: 2}
+    - target: {fileID: -1957143355505776490, guid: dae66f542e3c244dfad200eb6dac4979,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2955661012f8849949c47115fa011bb6, type: 2}
+    - target: {fileID: -927199367670048503, guid: dae66f542e3c244dfad200eb6dac4979,
+        type: 3}
+      propertyPath: m_Name
+      value: Wood_Boat
+      objectReference: {fileID: 0}
+    - target: {fileID: 447894930069853448, guid: dae66f542e3c244dfad200eb6dac4979,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2955661012f8849949c47115fa011bb6, type: 2}
+    - target: {fileID: 653728835218396720, guid: dae66f542e3c244dfad200eb6dac4979,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2955661012f8849949c47115fa011bb6, type: 2}
+    - target: {fileID: 4741398526135575593, guid: dae66f542e3c244dfad200eb6dac4979,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2955661012f8849949c47115fa011bb6, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dae66f542e3c244dfad200eb6dac4979, type: 3}
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+--- !u!4 &1791443772 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: dae66f542e3c244dfad200eb6dac4979,
+    type: 3}
+  m_PrefabInstance: {fileID: 1791443771}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1900583032
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 958073762}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -547.8281
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 178.10547
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1803.6196
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.42451045
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.90542305
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -50.239002
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_Name
+      value: Small Tropical Island (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac7888936601841c083998135dff076b, type: 3}
+--- !u!4 &1900583033 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1900583032}
+  m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+--- !u!1001 &1904145277
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 958073762}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 632e0d4af90ff479e8fac4203fb50b6a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 235.17188
+=======
+      value: 10436
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 632e0d4af90ff479e8fac4203fb50b6a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 202.10547
+=======
+      value: 166
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 632e0d4af90ff479e8fac4203fb50b6a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 12.380371
+=======
+      value: 2390
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 632e0d4af90ff479e8fac4203fb50b6a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 632e0d4af90ff479e8fac4203fb50b6a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 632e0d4af90ff479e8fac4203fb50b6a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 632e0d4af90ff479e8fac4203fb50b6a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 632e0d4af90ff479e8fac4203fb50b6a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 632e0d4af90ff479e8fac4203fb50b6a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 632e0d4af90ff479e8fac4203fb50b6a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 632e0d4af90ff479e8fac4203fb50b6a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 632e0d4af90ff479e8fac4203fb50b6a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 632e0d4af90ff479e8fac4203fb50b6a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 632e0d4af90ff479e8fac4203fb50b6a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 632e0d4af90ff479e8fac4203fb50b6a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2d4f8323af68841208e8e81d4904d8ce, type: 2}
+    - target: {fileID: -927199367670048503, guid: 632e0d4af90ff479e8fac4203fb50b6a,
+        type: 3}
+      propertyPath: m_Name
+      value: fern_tree
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 632e0d4af90ff479e8fac4203fb50b6a, type: 3}
+--- !u!4 &1904145278 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 632e0d4af90ff479e8fac4203fb50b6a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1904145277}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2002890532
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 958073762}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: -603.8281
+=======
+      value: -34829.113
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 173.10547
+=======
+      value: -52
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 423.38037
+=======
+      value: 24662.863
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.43094188
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.90237975
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_RootOrder
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 8
+=======
+      value: 10
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -51.055004
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalScale.x
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 1.05
+=======
+      value: 30
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 1.05
+=======
+      value: 30
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalScale.z
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 1.05
+=======
+      value: 30
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_Name
+      value: Small Tropical Island (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5427118333267224318, guid: ac7888936601841c083998135dff076b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac7888936601841c083998135dff076b, type: 3}
+--- !u!4 &2002890533 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: ac7888936601841c083998135dff076b,
+    type: 3}
+  m_PrefabInstance: {fileID: 2002890532}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2020788100
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 958073762}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 400.17188
+=======
+      value: 24908
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 178.60547
+=======
+      value: -240
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: -4.119629
+=======
+      value: -123
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.997652
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.06848754
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_RootOrder
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+      value: 15
+=======
+      value: 18
+>>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 172.14601
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5d03e0e62fb814867a854b5e56251b89,
+        type: 3}
+      propertyPath: m_Name
+      value: Small Tropical Island (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5d03e0e62fb814867a854b5e56251b89, type: 3}
+--- !u!4 &2020788101 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 5d03e0e62fb814867a854b5e56251b89,
+    type: 3}
+  m_PrefabInstance: {fileID: 2020788100}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2040620097
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2040620099}
+  - component: {fileID: 2040620098}
+  m_Layer: 0
+  m_Name: Point Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &2040620098
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040620097}
+  m_Enabled: 1
+  serializedVersion: 9
+  m_Type: 2
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 2
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &2040620099
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040620097}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1767.85, y: -34.86, z: 3272.16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
