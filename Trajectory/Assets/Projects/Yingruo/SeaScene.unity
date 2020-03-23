@@ -1841,10 +1841,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
 <<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
       value: 183.69547
 =======
       value: 114
 >>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+=======
+      value: 7
+>>>>>>> parent of d8b011ff... made a little progress on land & scale:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d9f0a4760b0dc4f1b8de314c72465768,
         type: 3}
@@ -2439,10 +2443,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
 <<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
+<<<<<<< HEAD:Trajectory/Assets/Projects/Yingruo/SeaScene.unity
       value: 189.00546
 =======
       value: 88
 >>>>>>> d406a680fe89f429173caf67d06b712e588ef777:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
+=======
+      value: 7.3
+>>>>>>> parent of d8b011ff... made a little progress on land & scale:Trajectory/Assets/prefabs/Yingruo/SeaScene.unity
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: dae66f542e3c244dfad200eb6dac4979,
         type: 3}
