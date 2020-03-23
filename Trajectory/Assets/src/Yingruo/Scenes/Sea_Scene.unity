@@ -1334,7 +1334,7 @@ PrefabInstance:
     - target: {fileID: 8059606038764884859, guid: 4b195694b284e4e61af4a1675fa97b10,
         type: 3}
       propertyPath: m_Name
-      value: Enemy
+      value: Enemy_Ship
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3550001292582417735, guid: 4b195694b284e4e61af4a1675fa97b10, type: 3}
@@ -2190,7 +2190,7 @@ PrefabInstance:
     - target: {fileID: 8059606038764884859, guid: 4b195694b284e4e61af4a1675fa97b10,
         type: 3}
       propertyPath: m_Name
-      value: Player
+      value: Player_Ship
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3550001292582417735, guid: 4b195694b284e4e61af4a1675fa97b10, type: 3}
