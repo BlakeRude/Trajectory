@@ -5,10 +5,13 @@ using UnityEngine;
 public class WeaponControlDemo : MonoBehaviour
 {
     private Weapon cannon;
+    private Ammo ball;
+    private Ammo inventory;
     // Start is called before the first frame update
     void Start()
     {
         cannon = GameObject.Find("Small_Cannon").GetComponent<Weapon>();
+        ball = GameObject.Find("SpikeBall").GetComponent<Ammo>();
     }
 
     // Update is called once per frame
@@ -26,11 +29,18 @@ public class WeaponControlDemo : MonoBehaviour
         }
 
         if(Input.GetKey(KeyCode.L)) {
-            cannon.Load(null);
+            Debug.Log(inventory);
+            cannon.Load(ref inventory);
+            inventory = null;
         }
 
         if(Input.GetKey(KeyCode.F)) {
             cannon.Fire();
+        }
+
+        if(Input.GetKey(KeyCode.P)) {
+            inventory = ball.PickUp();
+            Debug.Log(inventory);
         }
     }
 }

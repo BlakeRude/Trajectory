@@ -12,11 +12,12 @@ public class Ammo : MonoBehaviour
     }
 
     public Ammo PickUp() {
+        gameObject.SetActive(false);
         return this;
     }
 
     public void Fire() {
-
+        gameObject.SetActive(true);
     }
 
     public void UnPickUp() {

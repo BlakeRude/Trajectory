@@ -13,19 +13,19 @@ public class Weapon : MonoBehaviour
 
     private float cooldownTime = 3f;
     private float cooldownOver;
-    private bool loaded = false;
+    private Ammo currentAmmo;
 
     public void Start() {
         cannonBody = GameObject.Find("Small_cannon");
     }
 
     public void Fire() {
-        if(!CheckCooldown() || !loaded) {
-            Debug.Log("Cooled down? "+CheckCooldown()+" Loaded? "+loaded);
+        if(!CheckCooldown()) {
+            Debug.Log("Cooled down? "+CheckCooldown()+" Ammo? "+currentAmmo);
             return;
         }
-        Debug.Log("Fire!");
-        loaded = false;
+        Debug.Log("Fired "+currentAmmo+"!");
+        currentAmmo = null;
         cooldownOver = Time.time + cooldownTime;
     }
 
@@ -43,11 +43,12 @@ public class Weapon : MonoBehaviour
         } 
     }
 
-    public void Load(Ammo toLoad) {
-        loaded = true;
+    public void Load(ref Ammo toLoad) {
+        currentAmmo = toLoad;
     }
 
     private bool CheckCooldown() {
+        return true;
         return Time.time >= cooldownOver;
     }
 }
