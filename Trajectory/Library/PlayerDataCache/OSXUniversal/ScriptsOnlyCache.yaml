@@ -18,16 +18,24 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/prefabs/Yingruo/SeaScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
     - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
       Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-<<<<<<< HEAD
-    - Class: 104
-      Script: {instanceID: 0}
-=======
     - Class: 64
       Script: {instanceID: 0}
     - Class: 81
@@ -36,7 +44,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
->>>>>>> 3010786c12ffa33e942307313574e3eb9a128b79
     - Class: 157
       Script: {instanceID: 0}
     Assets/src/Blake/Main Menu/Main Menu.unity:
@@ -67,29 +74,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9694}
+      Script: {instanceID: 9686}
     - Class: 114
-      Script: {instanceID: 9704}
+      Script: {instanceID: 9696}
     - Class: 114
-      Script: {instanceID: 9872}
+      Script: {instanceID: 9864}
     - Class: 114
-      Script: {instanceID: 9920}
+      Script: {instanceID: 9912}
     - Class: 114
-      Script: {instanceID: 10342}
+      Script: {instanceID: 10334}
     - Class: 114
-      Script: {instanceID: 10756}
+      Script: {instanceID: 10748}
     - Class: 114
-      Script: {instanceID: 10968}
+      Script: {instanceID: 10960}
     - Class: 114
-<<<<<<< HEAD
-      Script: {instanceID: 11252}
-    - Class: 114
-      Script: {instanceID: 11648}
-=======
       Script: {instanceID: 11244}
     - Class: 114
       Script: {instanceID: 11640}
->>>>>>> 3010786c12ffa33e942307313574e3eb9a128b79
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -124,27 +125,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9694}
+      Script: {instanceID: 9686}
     - Class: 114
-      Script: {instanceID: 9872}
+      Script: {instanceID: 9864}
     - Class: 114
-      Script: {instanceID: 9920}
+      Script: {instanceID: 9912}
     - Class: 114
-      Script: {instanceID: 9978}
+      Script: {instanceID: 9970}
     - Class: 114
-      Script: {instanceID: 10342}
+      Script: {instanceID: 10334}
     - Class: 114
-      Script: {instanceID: 10756}
+      Script: {instanceID: 10748}
     - Class: 114
-<<<<<<< HEAD
-      Script: {instanceID: 11252}
-    - Class: 114
-      Script: {instanceID: 11648}
-=======
       Script: {instanceID: 11244}
     - Class: 114
       Script: {instanceID: 11640}
->>>>>>> 3010786c12ffa33e942307313574e3eb9a128b79
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -179,27 +174,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9694}
+      Script: {instanceID: 9686}
     - Class: 114
-      Script: {instanceID: 9872}
+      Script: {instanceID: 9864}
     - Class: 114
-      Script: {instanceID: 9920}
+      Script: {instanceID: 9912}
     - Class: 114
-      Script: {instanceID: 10096}
+      Script: {instanceID: 10088}
     - Class: 114
-      Script: {instanceID: 10342}
+      Script: {instanceID: 10334}
     - Class: 114
-      Script: {instanceID: 10756}
+      Script: {instanceID: 10748}
     - Class: 114
-<<<<<<< HEAD
-      Script: {instanceID: 11252}
-    - Class: 114
-      Script: {instanceID: 11648}
-=======
       Script: {instanceID: 11244}
     - Class: 114
       Script: {instanceID: 11640}
->>>>>>> 3010786c12ffa33e942307313574e3eb9a128b79
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -761,38 +750,10 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: e721a49d7cb61c77e776fec9305c4cb6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ThirdPerson
-  - hash:
-      serializedVersion: 2
-      Hash: 5b7de63c1df26b83b6c9c5638867eeb3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Weapon
-  - hash:
-      serializedVersion: 2
-      Hash: 6b6eb1c6ca08aa83c664b1911a4835e7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FreeCam
-  - hash:
-      serializedVersion: 2
-      Hash: 857653d7ddcd79692cf407e8ab43ebdd
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Ammo
   platform: 2
   scenePathNames:
   - Assets/src/Blake/Main Menu/Main Menu.unity
   - Assets/src/Blake/World Select Menu/SingleSelect.unity
   - Assets/prefabs/Yingruo/SeaScene.unity
   - Assets/src/Blake/Settings Menu/SettingsMenu.unity
-<<<<<<< HEAD
-  playerPath: /Users/a98965/Documents/GitHub/Trajectory/Trajectory/MACOS/MACOS.app
-=======
   playerPath: /Users/a98965/Desktop/Longshot_1.app
->>>>>>> 3010786c12ffa33e942307313574e3eb9a128b79
