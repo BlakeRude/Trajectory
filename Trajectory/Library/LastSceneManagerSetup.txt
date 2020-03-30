@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/src/Yingruo/Scenes/Sea_Scene.unity
+=======
+- path: Assets/src/Blake/World Select Menu/SingleSelect.unity
+>>>>>>> 9ce748e5c246d36dca9d226974934c8bcb85cde2
   isLoaded: 1
   isActive: 1
   isSubScene: 0
