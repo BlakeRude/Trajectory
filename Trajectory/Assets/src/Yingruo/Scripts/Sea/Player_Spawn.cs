@@ -9,11 +9,11 @@ public class Player_Spawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Invoke("Spawning", 0.01f);
     }
 
-    // Update is called once per frame
-    void Update()
+    
+    void Spawning()
     {
         Spawn= GameObject. Find("Player_Ship").transform.position;
         Spawn.x += 3;
