@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/src/Yingruo/Scenes/Land_Scene.unity
+=======
+- path: Assets/src/Blake/Main Menu/Main Menu.unity
+>>>>>>> a4c692750f6a2f5add27d5bc7e68ea7640227f3c
   isLoaded: 1
   isActive: 1
   isSubScene: 0
