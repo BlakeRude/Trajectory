@@ -8,11 +8,11 @@ public class Camera_Spawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Invoke("GetView", 0.01f);
     }
 
     // Update is called once per frame
-    void Update()
+    void GetView()
     {
         Camera= GameObject. Find("Player_Ship").transform.position;
         Camera.x += 5;
