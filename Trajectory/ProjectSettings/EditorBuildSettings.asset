@@ -11,10 +11,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/src/Blake/World Select Menu/SingleSelect.unity
     guid: 85f901581984be44d9c6164eeb6637a0
-  - enabled: 1
-    path: Assets/Projects/Yingruo/SeaScene.unity
-    guid: ce5f3eb1f9d5943fe94b7df59d1cc482
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/src/Blake/Settings Menu/SettingsMenu.unity
     guid: 5d8f20e5a3040d34cb3060daa130e3b4
+  - enabled: 1
+    path: Assets/src/Yingruo/Scenes/Space.unity
+    guid: 420190eb27afe42f0bd82559ac6bab8d
+  - enabled: 1
+    path: Assets/src/Yingruo/Scenes/Land_Scene.unity
+    guid: 9e5d84aeafaf44ed88968cc023c31186
+  - enabled: 1
+    path: Assets/src/Yingruo/Scenes/Sea_Scene.unity
+    guid: 159a6451c0971427a9756ae283b56569
   m_configObjects: {}
