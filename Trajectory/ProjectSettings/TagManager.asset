@@ -3,12 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Title_Text
-  - Start_Button
-  - Land_Button
-  - Sea_Button
-  - Air_Button
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -18,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Boat
   - 
   - 
   - 
