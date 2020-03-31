@@ -2,9 +2,11 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Back
-    - Camera_Spawn
+    - Camera
     - LandSelect
-    - Player_Spawn
+    - Player
+    - Player_Spawn_Land
+    - Player_Spawn_Space
     - RandomSpawn
     - SeaSelect
     - SettingsCog
@@ -35,7 +37,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -56,11 +64,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10334}
     - Class: 114
-      Script: {instanceID: 10748}
+      Script: {instanceID: 10746}
     - Class: 114
-      Script: {instanceID: 10964}
+      Script: {instanceID: 10962}
     - Class: 114
-      Script: {instanceID: 11244}
+      Script: {instanceID: 11246}
+    - Class: 114
+      Script: {instanceID: 11530}
     - Class: 114
       Script: {instanceID: 11646}
     - Class: 115
@@ -107,9 +117,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10334}
     - Class: 114
-      Script: {instanceID: 10748}
+      Script: {instanceID: 10746}
     - Class: 114
-      Script: {instanceID: 11244}
+      Script: {instanceID: 11246}
     - Class: 114
       Script: {instanceID: 11646}
     - Class: 115
@@ -135,9 +145,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -156,11 +174,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10334}
     - Class: 114
-      Script: {instanceID: 10748}
+      Script: {instanceID: 10746}
     - Class: 114
-      Script: {instanceID: 10922}
+      Script: {instanceID: 10920}
     - Class: 114
-      Script: {instanceID: 11244}
+      Script: {instanceID: 11246}
     - Class: 114
       Script: {instanceID: 11382}
     - Class: 114
@@ -210,6 +228,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 11530}
+    - Class: 114
+      Script: {instanceID: 14296}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -244,10 +264,12 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11530}
     - Class: 114
-      Script: {instanceID: 16108}
+      Script: {instanceID: 14284}
     - Class: 114
-      Script: {instanceID: 16110}
+      Script: {instanceID: 14298}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 143
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -277,6 +299,12 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11530}
+    - Class: 114
+      Script: {instanceID: 14294}
+    - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -499,12 +527,6 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
-      Hash: 655675a941ea756088027703b43352a4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Camera
-  - hash:
-      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -643,6 +665,12 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: f9af3783ac3ab43864c4a1aeecf38562
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Camera_Spawn
+  - hash:
+      serializedVersion: 2
       Hash: e1300922cc039f41ab46a47f4cb05898
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -659,6 +687,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: a11755e9448da724df9ec3d39ae00c1b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player_Spawn
   - hash:
       serializedVersion: 2
       Hash: 318c6c13a19c9fac98135ae14889de1b
@@ -701,12 +735,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
-  - hash:
-      serializedVersion: 2
-      Hash: 82a3e78aee60460c3b58d6f15b02f0a0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Player
   - hash:
       serializedVersion: 2
       Hash: 1dcb82730d983b77cec736c6ef19f814
@@ -847,16 +875,28 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: f9af3783ac3ab43864c4a1aeecf38562
+      Hash: 655675a941ea756088027703b43352a4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Camera_Spawn
+    className: Camera
   - hash:
       serializedVersion: 2
-      Hash: a11755e9448da724df9ec3d39ae00c1b
+      Hash: 00c17549d188fcba716fd41e9337ff5d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Player_Spawn
+    className: Player_Spawn_Space
+  - hash:
+      serializedVersion: 2
+      Hash: 9c6eec38218710794bbf2ca4e9358e24
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player_Spawn_Land
+  - hash:
+      serializedVersion: 2
+      Hash: 45f1cb763869be9c876131ff931d45ec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player
   platform: 5
   scenePathNames:
   - Assets/src/Blake/Main Menu/Main Menu.unity
