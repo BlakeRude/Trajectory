@@ -2,7 +2,8 @@
     "name": "Edit_Mode_Test",
     "references": [
         "UnityEngine.TestRunner",
-        "UnityEditor.TestRunner"
+        "UnityEditor.TestRunner",
+        "Main"
     ],
     "includePlatforms": [
         "Editor"
