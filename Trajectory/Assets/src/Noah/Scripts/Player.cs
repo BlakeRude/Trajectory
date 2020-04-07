@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         //delay the spawning of player to wait for randomization of base position(Yingruo)
-        Invoke("spawnPlayer", 0.03f);
+        //Invoke("spawnPlayer", 0.03f);
     }
 
     // Update is called once per frame
@@ -59,6 +59,23 @@ public class Player : MonoBehaviour
         Vector3 move = transform.right * x + transform.forward * z;
 
         controller.Move(move * speed * Time.deltaTime);
+
+        //the below handles character gravity
+        Velocity.y += gravity * Time.deltaTime;
+        //multiplying by deltaTime twice satisfies y = 1/2g * t^2 makes falling more realistic
+        controller.Move(Velocity * Time.deltaTime);
+    }
+
+    public void moveTest()
+    {
+        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+
+        if (isGrounded && Velocity.y < 0)
+        {
+            Velocity.y = -2f;
+        }
+
+        controller.Move(Vector3.left * speed * Time.deltaTime);
 
         //the below handles character gravity
         Velocity.y += gravity * Time.deltaTime;
