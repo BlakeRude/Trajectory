@@ -16,7 +16,7 @@ public class Weapon : MonoBehaviour
     private Transform cannonTransform;
     private Transform cannonBodyTransform;
 
-    private float cooldownTime = 3f;
+    public float cooldownTime = 3f;
     private float cooldownOver;
     private Ammo currentAmmo;
 
@@ -28,13 +28,9 @@ public class Weapon : MonoBehaviour
 
     public void Fire() {
         if(!CheckCooldown()) {
-            Debug.Log("Cooled down? "+CheckCooldown()+" Ammo? "+currentAmmo);
             return;
         }
         if(currentAmmo != null) {
-            Debug.Log("Fired "+currentAmmo+"!");
-            Debug.Log("Cannon: "+cannonTransform.rotation);
-            Debug.Log("Body: "+cannonBodyTransform.rotation);
             Vector3 force = new Vector3(power*cannonTransform.rotation.y,-power*cannonBodyTransform.rotation.x,power);
             currentAmmo.Fire(force);
             currentAmmo = null;
@@ -58,7 +54,6 @@ public class Weapon : MonoBehaviour
         currentAmmo = toLoad;
         Vector3 loadPos = GameObject.Find("Ammo_target").GetComponent<Transform>().position;
         currentAmmo.GetComponent<Transform>().position = loadPos;
-        Debug.Log("Cannon loaded with "+currentAmmo);
     }
 
     private bool CheckCooldown() {
