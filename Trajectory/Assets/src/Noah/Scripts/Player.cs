@@ -20,26 +20,13 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        //delay the spawning of player to wait for randomization of base position(Yingruo)
-        //Invoke("spawnPlayer", 0.03f);
+
     }
 
     // Update is called once per frame
     void Update()
     {
         movePlayer();
-    }
-
-
-    private void spawnPlayer() //Yingruo
-    {
-        Spawn = GameObject.Find("Player_Ship").transform.position;//find base and store the position
-        //adjust the player position
-        Spawn.x += 3;
-        Spawn.y += 2;
-
-        //assgin the player position to the player object
-        transform.position = Spawn;
     }
 
     private void movePlayer()
@@ -66,6 +53,7 @@ public class Player : MonoBehaviour
         controller.Move(Velocity * Time.deltaTime);
     }
 
+    //allows for movement without wasd controls with a player controller
     public void moveTest()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);

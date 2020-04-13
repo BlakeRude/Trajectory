@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Title_Text
+  - Start_Button
+  - SpawnPoint
   layers:
   - Default
   - TransparentFX
