@@ -8,12 +8,17 @@ public class SpawnPlayer : MonoBehaviour
 {
     public GameObject spawnLocation;
     public GameObject player;
-    private Vector3 respawnLocation;
+    public static Vector3 respawnLocation;
 
     // Start is called before the first frame update
     void Start()
     {
         Invoke("spawnPlayer", 0.01f);
+    }
+
+    void Update()
+    {
+
     }
 
     private void spawnPlayer()

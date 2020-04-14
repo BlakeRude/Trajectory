@@ -196,13 +196,12 @@ MonoBehaviour:
   controller: {fileID: 8528591413325577289}
   speed: 12
   gravity: -9.8
-  spawnLocation: {fileID: 0}
-  player: {fileID: 0}
   groundCheck: {fileID: 8528591412690907435}
   groundDistance: 0.4
   groundMask:
     serializedVersion: 2
     m_Bits: 256
+  Health: 0
 --- !u!1 &8528591413805343074
 GameObject:
   m_ObjectHideFlags: 0

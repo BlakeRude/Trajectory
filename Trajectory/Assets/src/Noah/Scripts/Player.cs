@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     public CharacterController controller;
 
     private Vector3 Spawn;
-    private Vector3 Velocity;
+    private Vector3 Velocity;     
 
     public float speed = 12f;
     public float gravity = -9.8f;
@@ -16,17 +16,31 @@ public class Player : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
+    public float Health;
+
     bool isGrounded;
 
-    private void Start()
+    void Start()
     {
-
+        Health = 100.0f;
     }
 
     // Update is called once per frame
     void Update()
     {
         movePlayer();
+
+        if(Health <= 0)
+        {
+            controller.transform.position = SpawnPlayer.respawnLocation;
+            Health = 100.0f;
+        }
+    }
+
+    private void OnTriggerEnter(Collider misc)
+    {
+        Health -= 50.0f;
+        Debug.Log("Health =" + Health);
     }
 
     private void movePlayer()
