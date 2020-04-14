@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
-    public float Health;
+    public static float Health;
 
     bool isGrounded;
 
