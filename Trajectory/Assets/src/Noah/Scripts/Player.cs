@@ -2,6 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Player.cs
+ * my player class for Trajectory
+ * 
+ * 
+ * 
+ * 
+ */
+
+
+[System.Serializable]
 public class Player : MonoBehaviour
 {
     public CharacterController controller;
@@ -45,8 +56,10 @@ public class Player : MonoBehaviour
 
     private void movePlayer()
     {
+        //an invisible sphere is made under the player to check if the player in touching the gorund
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
+        //setting the downward velocity to -2 when grounded 1)resets downward velocity 2)keeps the player on the floor
         if(isGrounded && Velocity.y < 0)
         {
             Velocity.y = -2f;
@@ -59,15 +72,16 @@ public class Player : MonoBehaviour
         //vector for moving player/character
         Vector3 move = transform.right * x + transform.forward * z;
 
+        //moves player controller and subsequently everthing that is a child to it
         controller.Move(move * speed * Time.deltaTime);
 
-        //the below handles character gravity
+        //the below handles character gravity multiplying by deltaTime keeps the movement frame rate independent
         Velocity.y += gravity * Time.deltaTime;
-        //multiplying by deltaTime twice satisfies y = 1/2g * t^2 makes falling more realistic
+        //multiplying by deltaTime twice satisfies y = 1/2g * t^2 makes falling more realistic, go metric!
         controller.Move(Velocity * Time.deltaTime);
     }
 
-    //allows for movement without wasd controls with a player controller
+    //allows for movement without wasd controls with a player controller for test cases
     public void moveTest()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);

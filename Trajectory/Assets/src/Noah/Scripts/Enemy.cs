@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestDamage : MonoBehaviour
+
+[System.Serializable]
+public class Enemy : Player
 {
     // Start is called before the first frame update
     void Start()
