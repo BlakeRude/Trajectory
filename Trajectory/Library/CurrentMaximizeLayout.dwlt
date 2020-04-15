@@ -19,12 +19,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1920
-    height: 987
-  m_MinSize: {x: 879, y: 494}
-  m_MaxSize: {x: 16004, y: 14044}
+    width: 1522
+    height: 717
+  m_MinSize: {x: 885, y: 494}
+  m_MaxSize: {x: 16010, y: 14044}
   vertical: 0
-  controlID: 25918
+  controlID: 134
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -46,26 +46,26 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1002
-    y: 73
-    width: 527
-    height: 571
+    x: 710.4
+    y: 80.8
+    width: 509
+    height: 426
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
   m_MaximizeOnPlay: 1
   m_Gizmos: 1
   m_Stats: 0
-  m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -263.5
-    m_HBaseRangeMax: 263.5
-    m_VBaseRangeMin: -148
-    m_VBaseRangeMax: 148
+    m_HBaseRangeMin: -203.6
+    m_HBaseRangeMax: 203.6
+    m_VBaseRangeMin: -163.6
+    m_VBaseRangeMax: 163.6
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -83,25 +83,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 527
-      height: 554
+      width: 509
+      height: 409
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 263.5, y: 277}
+    m_Translation: {x: 254.5, y: 204.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -263.5
-      y: -277
-      width: 527
-      height: 554
+      x: -254.5
+      y: -204.5
+      width: 509
+      height: 409
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 527, y: 571}
+  m_LastWindowPixelSize: {x: 636.25, y: 532.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -125,12 +125,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1531
-    height: 987
-  m_MinSize: {x: 604, y: 494}
-  m_MaxSize: {x: 12004, y: 14044}
+    width: 1214
+    height: 717
+  m_MinSize: {x: 610, y: 494}
+  m_MaxSize: {x: 12010, y: 14044}
   vertical: 1
-  controlID: 25919
+  controlID: 98
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -151,12 +151,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1531
-    height: 590
-  m_MinSize: {x: 604, y: 222}
-  m_MaxSize: {x: 12004, y: 4022}
+    width: 1214
+    height: 445
+  m_MinSize: {x: 610, y: 222}
+  m_MaxSize: {x: 12010, y: 4022}
   vertical: 0
-  controlID: 25920
+  controlID: 77
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -174,8 +174,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 379
-    height: 590
+    width: 252
+    height: 445
   m_MinSize: {x: 202, y: 222}
   m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 6}
@@ -204,31 +204,31 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 73
-    width: 379
-    height: 571
+    x: 7.2000003
+    y: 80.8
+    width: 252
+    height: 426
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: fa0fffff6a2cffffc8bdffff08beffff72c1ffff20cfffff68cfffff6ccfffff70cfffff78cfffff6ed6ffffaed6ffff0edbffffc0e8ffff0ae9ffff1ee9ffff28e9ffff30e9ffffbcf9ffff28faffff76fbfffff8400000b45000008c580000
+      m_ExpandedIDs: 74acffff22bbffff18beffff78beffff12c6ffff2ec7ffff2cccffff12cdffffb4ceffff94d1ffffaedbffffb4defffffce6ffff0aebffff08f2ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Cylinder
+        m_OriginalName: Cylinder
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 25500
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -253,10 +253,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 379
+    x: 252
     y: 0
-    width: 623
-    height: 590
+    width: 451
+    height: 445
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 8}
@@ -264,7 +264,7 @@ MonoBehaviour:
   - {fileID: 8}
   - {fileID: 9}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 0
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -286,24 +286,24 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 379
-    y: 73
-    width: 621
-    height: 571
+    x: 259.2
+    y: 80.8
+    width: 449
+    height: 426
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: a254698f5ebc4234c9d126fc5ce3a559
-  m_Gizmos: 0
+  m_Gizmos: 1
   m_SceneIsLit: 1
   m_SceneLighting: 1
-  m_2DMode: 1
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 274.38922, y: 180.27524, z: -1804.625}
+    m_Target: {x: -0.0720824, y: 0.13923359, z: -13.422717}
     speed: 2
-    m_Value: {x: 274.38922, y: 180.27524, z: -1804.625}
+    m_Value: {x: -0.0720824, y: 0.13923359, z: -13.422717}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -324,28 +324,28 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    zGrid:
       m_Target: 1
       speed: 2
       m_Value: 1
+    zGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: 0.41586372, y: -0.040152226, z: 0.018359821, w: 0.9083721}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: 0.41585714, y: -0.04015159, z: 0.01835953, w: 0.9083577}
   m_Size:
-    m_Target: 412.28098
+    m_Target: 18.799406
     speed: 2
-    m_Value: 412.28098
+    m_Value: 18.799406
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.49748743
+    m_Speed: 0.9
+    m_SpeedNormalized: 0.44723618
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -357,7 +357,7 @@ MonoBehaviour:
     m_DynamicClip: 1
     m_OcclusionCulling: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: 0.41206846, y: 0.018592058, z: -0.008399439, w: 0.9109407}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -385,10 +385,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 379
-    y: 73
-    width: 572
-    height: 571
+    x: 468
+    y: 181
+    width: 973
+    height: 501
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &10
 MonoBehaviour:
@@ -405,12 +405,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1002
+    x: 703
     y: 0
-    width: 529
-    height: 590
-  m_MinSize: {x: 204, y: 222}
-  m_MaxSize: {x: 4004, y: 4022}
+    width: 511
+    height: 445
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -432,11 +432,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 590
-    width: 1531
-    height: 397
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+    y: 445
+    width: 1214
+    height: 272
+  m_MinSize: {x: 232, y: 272}
+  m_MaxSize: {x: 10002, y: 10022}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -464,10 +464,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 663
-    width: 1531
-    height: 378
+    x: 7.2000003
+    y: 525.60004
+    width: 1214
+    height: 253
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -488,28 +488,28 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/src/Blake/Main Menu
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\blake\Documents\GitHub\Trajectory\Trajectory
+  m_LastProjectPath: C:\Users\Satan\Documents\GitHub\Trajectory\Trajectory
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 34}
-    m_SelectedIDs: 223c0000
-    m_LastClickedID: 15394
-    m_ExpandedIDs: 00000000be2e00000a3100001c310000243100003e31000086310000c2310000e23100005e320000683200006a3200007c3200008a3400009235000096350000d43700007e3800009c380000b6380000d8380000dc380000f0380000123900001c390000bc390000e8390000f4390000363a00006a3a0000463b00006e3b00008e3b0000f83b00003c3c00007a3c0000d43c0000e03d0000783f00007a3f000000ca9a3b
+    scrollPos: {x: 0, y: 35}
+    m_SelectedIDs: 164a0000
+    m_LastClickedID: 18966
+    m_ExpandedIDs: 00000000403d0000843f0000963f00009e3f0000b83f0000fc3f00003440000054400000cc400000d6400000d8400000e4400000dc420000e0430000e443000016460000b2460000d0460000e646000002470000064700001a4700003647000040470000dc470000024800000e4800004a4800007e480000464900006e4900008a490000f24900002a4a0000304a0000644a0000b44a0000ac4b0000a44c0000a64c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Lucas
+      m_OriginalName: Lucas
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 18174
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
@@ -523,7 +523,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000be2e00000a3100001c310000243100003e31000086310000c2310000e23100005e320000683200006a3200007c3200008a3400009235000096350000d43700007e3800009c380000b6380000d8380000dc380000f0380000123900001c390000bc390000e8390000f4390000363a00006a3a0000463b00006e3b00008e3b0000f83b00003c3c00007a3c0000d43c0000e03d0000783f00007a3f000000ca9a3b
+    m_ExpandedIDs: 00000000403d0000843f0000963f00009e3f0000b83f0000fc3f00003440000054400000cc400000d6400000d8400000e4400000dc420000e0430000e443000016460000b2460000d0460000e646000002470000064700001a4700003647000040470000dc470000024800000e4800004a4800007e480000464900006e4900008a490000f2490000304a0000644a0000b44a0000ac4b0000a44c0000a64c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -548,10 +548,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: fa0fffff
-    m_LastClickedInstanceID: -61446
+    m_SelectedInstanceIDs: be490000
+    m_LastClickedInstanceID: 18878
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000a65c00005633000000000000
+    m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -600,10 +600,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 663
-    width: 1531
-    height: 378
+    x: 7.2000003
+    y: 525.60004
+    width: 1214
+    height: 253
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &14
 MonoBehaviour:
@@ -620,17 +620,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1531
+    x: 1214
     y: 0
-    width: 389
-    height: 987
+    width: 308
+    height: 717
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
+  - {fileID: 16}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -652,10 +653,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1531
-    y: 73
-    width: 387
-    height: 968
+    x: 1221.6
+    y: 80.8
+    width: 306
+    height: 698
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -667,5 +668,631 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: -61446
-  m_LastVerticalScrollValue: 76
+  m_LastInspectedObjectInstanceID: 18878
+  m_LastVerticalScrollValue: 0
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1221.6
+    y: 80.8
+    width: 306
+    height: 698
+  m_ViewDataDictionary: {fileID: 0}
+  m_TestTypeToolbarIndex: 0
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 16}
+    newResultList:
+    - id: 1010
+      uniqueId: '[Trajectory][suite]'
+      name: Trajectory
+      fullName: Trajectory
+      resultStatus: 1
+      duration: 8.277854
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1005
+      uniqueId: '[C:/Users/Satan/Documents/GitHub/Trajectory/Trajectory/Library/ScriptAssemblies/Tests.dll][suite]'
+      name: Tests.dll
+      fullName: C:/Users/Satan/Documents/GitHub/Trajectory/Trajectory/Library/ScriptAssemblies/Tests.dll
+      resultStatus: 1
+      duration: 8.049413
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Trajectory][suite]'
+    - id: 1006
+      uniqueId: Tests.dll/[Tests][suite]
+      name: Tests
+      fullName: Tests
+      resultStatus: 1
+      duration: 7.890296
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1005
+      parentUniqueId: '[C:/Users/Satan/Documents/GitHub/Trajectory/Trajectory/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1002
+      uniqueId: Tests.dll/Tests/[Tests][Tests.Tests_LT][suite]
+      name: Tests_LT
+      fullName: Tests.Tests_LT
+      resultStatus: 1
+      duration: 7.439776
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][suite]
+    - id: 1004
+      uniqueId: Tests.dll/Tests/Tests_LT/[Tests][Tests.Tests_LT.Tests_LTCooldownAfterFiring]
+      name: Tests_LTCooldownAfterFiring
+      fullName: Tests.Tests_LT.Tests_LTCooldownAfterFiring
+      resultStatus: 1
+      duration: 0.1575343
+      messages: 
+      output: "testWeapon Loaded\r\ntestWeapon Fired\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nEnding velocity of AmmoB: 0\r\n"
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1002
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.Tests_LT][suite]
+    - id: 1005
+      uniqueId: Tests.dll/Tests/Tests_LT/[Tests][Tests.Tests_LT.Tests_LTStressAmmosAndWeapons]
+      name: Tests_LTStressAmmosAndWeapons
+      fullName: Tests.Tests_LT.Tests_LTStressAmmosAndWeapons
+      resultStatus: 1
+      duration: 6.8579645
+      messages: 
+      output: "testWeapon Loaded\r\ntestWeapon Fired\r\nIteration 0 FPS: 38.16872\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 1 FPS: 41.22269\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 2 FPS: 44.01877\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        3 FPS: 46.28268\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 4 FPS:
+        48.33831\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 5 FPS: 50.30823\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 6 FPS: 51.99792\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 7 FPS: 53.42129\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        8 FPS: 54.43704\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 9 FPS:
+        55.28661\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 10 FPS: 56.17107\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 11 FPS: 56.89807\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 12 FPS: 57.49231\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        13 FPS: 57.97907\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 14
+        FPS: 58.37239\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 15 FPS:
+        58.67277\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 16 FPS: 58.93343\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 17 FPS: 59.14379\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 18 FPS: 59.18521\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        19 FPS: 59.34649\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 20
+        FPS: 59.00498\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 21 FPS:
+        59.20114\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 22 FPS: 58.85423\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 23 FPS: 59.08044\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 24 FPS: 58.81859\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        25 FPS: 59.05957\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 26
+        FPS: 59.24493\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 27 FPS:
+        59.39384\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 28 FPS: 59.17225\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 29 FPS: 59.10078\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 30 FPS: 59.27908\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        31 FPS: 59.4208\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 32 FPS:
+        59.53593\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 33 FPS: 59.62807\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 34 FPS: 59.7015\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 35 FPS: 59.76094\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        36 FPS: 59.58925\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 37
+        FPS: 59.43812\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 38 FPS:
+        59.28387\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 39 FPS: 59.4264\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 40 FPS: 59.03282\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 41 FPS: 59.0134\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        42 FPS: 58.99258\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 43
+        FPS: 59.1909\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 44 FPS:
+        59.35109\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 45 FPS: 59.44882\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 46 FPS: 59.35671\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 47 FPS: 59.48531\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        48 FPS: 59.58752\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 49
+        FPS: 59.57455\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 50 FPS:
+        59.4829\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 51 FPS: 59.58608\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 52 FPS: 59.66766\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 53 FPS: 59.69402\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        54 FPS: 59.45883\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 55
+        FPS: 59.27152\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 56 FPS:
+        59.41719\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 57 FPS: 59.53261\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 58 FPS: 59.58384\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 59 FPS: 59.46414\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        60 FPS: 59.57038\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 61
+        FPS: 59.65564\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 62 FPS:
+        59.58901\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 63 FPS: 59.44386\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 64 FPS: 59.33931\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 65 FPS: 59.47011\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        66 FPS: 59.57511\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 67
+        FPS: 59.65816\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 68 FPS:
+        59.72591\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 69 FPS: 59.78179\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 70 FPS: 59.8255\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 71 FPS: 59.50623\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        72 FPS: 59.6068\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 73 FPS:
+        59.68471\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 74 FPS: 59.74748\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 75 FPS: 59.79787\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 76 FPS: 59.83801\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        77 FPS: 59.87032\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 78
+        FPS: 59.68762\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 79 FPS:
+        59.74988\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 80 FPS: 59.79815\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 81 FPS: 59.83738\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 82 FPS: 59.61426\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        83 FPS: 59.69056\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 84
+        FPS: 59.1747\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 85 FPS:
+        59.33918\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 86 FPS: 59.47051\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 87 FPS: 59.53549\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 88 FPS: 59.62758\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        89 FPS: 59.7016\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 90 FPS:
+        59.73396\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 91 FPS: 59.55935\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 92 FPS: 59.64764\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 93 FPS: 59.71769\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        94 FPS: 59.77434\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 95
+        FPS: 59.81889\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 96 FPS:
+        59.85485\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 97 FPS: 59.88366\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 98 FPS: 59.71327\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 99 FPS: 59.7703\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        100 FPS: 59.81615\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 101
+        FPS: 59.81472\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 102 FPS:
+        59.5984\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 103 FPS: 59.6782\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 104 FPS: 57.4974\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 105 FPS: 54.32671\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        106 FPS: 52.2555\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 107
+        FPS: 52.38533\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 108 FPS:
+        50.65058\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 109 FPS: 48.24911\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 110 FPS: 48.42513\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 111 FPS: 47.31156\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        112 FPS: 45.39745\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 113
+        FPS: 44.94149\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 114 FPS:
+        45.85006\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 115 FPS: 45.09221\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 116 FPS: 44.29824\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 117 FPS: 43.71919\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        118 FPS: 42.35149\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 119
+        FPS: 41.8654\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 120 FPS:
+        41.74829\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 121 FPS: 42.76958\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 122 FPS: 41.91374\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 123 FPS: 41.58938\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        124 FPS: 41.01151\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 125
+        FPS: 40.57526\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 126 FPS:
+        39.21632\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 127 FPS: 38.95427\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 128 FPS: 40.41602\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 129 FPS: 39.85205\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        130 FPS: 39.28383\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 131
+        FPS: 38.59249\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 132 FPS:
+        37.64139\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 133 FPS: 37.55352\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 134 FPS: 38.34884\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 135 FPS: 37.05913\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        136 FPS: 37.61697\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 137
+        FPS: 36.52464\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 138 FPS:
+        35.82319\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 139 FPS: 35.78137\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 140 FPS: 36.62619\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 141 FPS: 36.22365\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        142 FPS: 35.87241\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 143
+        FPS: 34.71085\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 144 FPS:
+        34.30175\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 145 FPS: 34.38281\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 146 FPS: 35.33936\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 147 FPS: 34.92731\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        148 FPS: 34.38509\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 149
+        FPS: 33.8908\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 150 FPS:
+        32.71546\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 151 FPS: 33.09438\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 152 FPS: 33.92951\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 153 FPS: 33.62308\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        154 FPS: 32.98405\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 155
+        FPS: 31.90006\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 156 FPS:
+        31.95296\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 157 FPS: 32.08363\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 158 FPS: 32.54296\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 159 FPS: 32.13367\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        160 FPS: 31.03816\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 161
+        FPS: 31.07183\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 162 FPS:
+        31.77728\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 163 FPS: 31.47871\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 164 FPS: 30.29658\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 165 FPS: 30.19433\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        166 FPS: 30.15507\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 167
+        FPS: 30.87165\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 168 FPS:
+        30.61816\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 169 FPS: 30.12169\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 170 FPS: 28.89644\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 171 FPS: 29.31494\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        172 FPS: 29.70559\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 173
+        FPS: 29.29924\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 174 FPS:
+        28.22307\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 175 FPS: 28.48529\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 176 FPS: 28.20094\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 177 FPS: 28.87324\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        178 FPS: 28.73443\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 179
+        FPS: 28.0628\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 180 FPS:
+        27.73912\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 181 FPS: 27.90147\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 182 FPS: 27.74068\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 183 FPS: 27.05061\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        184 FPS: 26.45822\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 185
+        FPS: 27.35663\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 186 FPS:
+        27.87061\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 187 FPS: 27.57561\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 188 FPS: 26.51868\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 189 FPS: 26.56105\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        190 FPS: 26.63378\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 191
+        FPS: 27.35818\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 192 FPS:
+        26.38666\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 193 FPS: 25.97893\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 194 FPS: 25.93302\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 195 FPS: 26.39547\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        196 FPS: 26.28517\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 197
+        FPS: 25.38963\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 198 FPS:
+        25.36822\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 199 FPS: 25.78337\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 200 FPS: 24.94744\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 201 FPS: 25.0542\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        202 FPS: 24.90297\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 203
+        FPS: 25.47925\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 204 FPS:
+        25.2021\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 205 FPS: 24.29608\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 206 FPS: 24.47296\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 207 FPS: 24.93517\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        208 FPS: 24.6313\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 209
+        FPS: 24.03448\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 210 FPS:
+        23.81452\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 211 FPS: 24.6598\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 212 FPS: 24.13897\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 213 FPS: 23.44987\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        214 FPS: 23.48551\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 215
+        FPS: 23.29145\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 216 FPS:
+        23.85146\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 217 FPS: 23.08207\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 218 FPS: 23.14694\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 219 FPS: 23.54982\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        220 FPS: 22.76559\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 221
+        FPS: 22.75305\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 222 FPS:
+        22.74324\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 223 FPS: 22.24758\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 224 FPS: 21.40008\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 225 FPS: 19.72841\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        226 FPS: 20.12771\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 227
+        FPS: 20.13255\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 228 FPS:
+        19.56518\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 229 FPS: 18.31838\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 230 FPS: 19.59801\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 231 FPS: 18.95567\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        232 FPS: 18.79641\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 233
+        FPS: 17.88658\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 234 FPS:
+        18.58409\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 235 FPS: 18.47551\r\ntestWeapon
+        Loaded\r\ntestWeapon Fired\r\nIteration 236 FPS: 18.57914\r\ntestWeapon Loaded\r\ntestWeapon
+        Fired\r\nIteration 237 FPS: 16.37642\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration
+        238 FPS: 17.19709\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 239
+        FPS: 16.35603\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nIteration 240 FPS:
+        14.21493\r\n"
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1002
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.Tests_LT][suite]
+    - id: 1003
+      uniqueId: Tests.dll/Tests/Tests_LT/[Tests][Tests.Tests_LT.Tests_LTVelocityAfterFiring]
+      name: Tests_LTVelocityAfterFiring
+      fullName: Tests.Tests_LT.Tests_LTVelocityAfterFiring
+      resultStatus: 1
+      duration: 0.3459619
+      messages: 
+      output: "Starting velocity: 0\r\ntestWeapon Loaded\r\ntestWeapon Fired\r\nEnding
+        velocity: 40.01732\r\n"
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1002
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.Tests_LT][suite]
+    - id: 1006
+      uniqueId: Tests.dll/Tests/[Tests][Tests.Tests_NM][suite]
+      name: Tests_NM
+      fullName: Tests.Tests_NM
+      resultStatus: 1
+      duration: 0.3372685
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][suite]
+    - id: 1008
+      uniqueId: Tests.dll/Tests/Tests_NM/[Tests][Tests.Tests_NM.Tests_NMGravityBoundaryTest]
+      name: Tests_NMGravityBoundaryTest
+      fullName: Tests.Tests_NM.Tests_NMGravityBoundaryTest
+      resultStatus: 1
+      duration: 0.1147523
+      messages: 
+      output: "Test Success: Major Tom Made It Back To Earth\r\n"
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.Tests_NM][suite]
+    - id: 1007
+      uniqueId: Tests.dll/Tests/Tests_NM/[Tests][Tests.Tests_NM.Tests_NMSpeedBoundaryTest]
+      name: Tests_NMSpeedBoundaryTest
+      fullName: Tests.Tests_NM.Tests_NMSpeedBoundaryTest
+      resultStatus: 1
+      duration: 0.1861164
+      messages: 
+      output: "There are 2 audio listeners in the scene. Please ensure there is always
+        exactly one audio listener in the scene.\r\nThere are 2 audio listeners in
+        the scene. Please ensure there is always exactly one audio listener in the
+        scene.\r\nThere are 2 audio listeners in the scene. Please ensure there is
+        always exactly one audio listener in the scene.\r\nThere are 2 audio listeners
+        in the scene. Please ensure there is always exactly one audio listener in
+        the scene.\r\nThere are 2 audio listeners in the scene. Please ensure there
+        is always exactly one audio listener in the scene.\r\nThere are 2 audio listeners
+        in the scene. Please ensure there is always exactly one audio listener in
+        the scene.\r\nThere are 2 audio listeners in the scene. Please ensure there
+        is always exactly one audio listener in the scene.\r\nThere are 2 audio listeners
+        in the scene. Please ensure there is always exactly one audio listener in
+        the scene.\r\nThere are 2 audio listeners in the scene. Please ensure there
+        is always exactly one audio listener in the scene.\r\nThere are 2 audio listeners
+        in the scene. Please ensure there is always exactly one audio listener in
+        the scene.\r\nTest Passed i = 500\r\nspeed:500\r\n"
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.Tests_NM][suite]
+    m_ResultText: Tests.dll (8.049s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 6d2ab2bc
+      m_LastClickedID: -1129174419
+      m_ExpandedIDs: 6d2ab2bc2d79511b8359db4129e32170ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 16}
+    newResultList:
+    - id: 1000
+      uniqueId: '[Trajectory][suite]'
+      name: Trajectory
+      fullName: Trajectory
+      resultStatus: 1
+      duration: 0.1724976
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1008
+      uniqueId: '[C:/Users/Satan/Documents/GitHub/Trajectory/Trajectory/Library/ScriptAssemblies/Edit_Mode_Test.dll][suite]'
+      name: Edit_Mode_Test.dll
+      fullName: C:/Users/Satan/Documents/GitHub/Trajectory/Trajectory/Library/ScriptAssemblies/Edit_Mode_Test.dll
+      resultStatus: 1
+      duration: 0.1304282
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Trajectory][suite]'
+    - id: 1009
+      uniqueId: Edit_Mode_Test.dll/[Tests][suite]
+      name: Tests
+      fullName: Tests
+      resultStatus: 1
+      duration: 0.1209778
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1008
+      parentUniqueId: '[C:/Users/Satan/Documents/GitHub/Trajectory/Trajectory/Library/ScriptAssemblies/Edit_Mode_Test.dll][suite]'
+    - id: 1005
+      uniqueId: Edit_Mode_Test.dll/Tests/[Edit_Mode_Test][Tests.Stress_Test_YL][suite]
+      name: Stress_Test_YL
+      fullName: Tests.Stress_Test_YL
+      resultStatus: 1
+      duration: 0.0660046
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1009
+      parentUniqueId: Edit_Mode_Test.dll/[Tests][suite]
+    - id: 1006
+      uniqueId: Edit_Mode_Test.dll/Tests/Stress_Test_YL/[Edit_Mode_Test][Tests.Stress_Test_YL.Stress_Test_YLSimplePasses]
+      name: Stress_Test_YLSimplePasses
+      fullName: Tests.Stress_Test_YL.Stress_Test_YLSimplePasses
+      resultStatus: 1
+      duration: 0.0050858
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: Edit_Mode_Test.dll/Tests/[Edit_Mode_Test][Tests.Stress_Test_YL][suite]
+    - id: 1007
+      uniqueId: Edit_Mode_Test.dll/Tests/Stress_Test_YL/[Edit_Mode_Test][Tests.Stress_Test_YL.Stress_Test_YLWithEnumeratorPasses]
+      name: Stress_Test_YLWithEnumeratorPasses
+      fullName: Tests.Stress_Test_YL.Stress_Test_YLWithEnumeratorPasses
+      resultStatus: 1
+      duration: 0.0320763
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: Edit_Mode_Test.dll/Tests/[Edit_Mode_Test][Tests.Stress_Test_YL][suite]
+    - id: 1002
+      uniqueId: Edit_Mode_Test.dll/Tests/[Edit_Mode_Test][Tests.Test_NM][suite]
+      name: Test_NM
+      fullName: Tests.Test_NM
+      resultStatus: 1
+      duration: 0.02716
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1009
+      parentUniqueId: Edit_Mode_Test.dll/[Tests][suite]
+    - id: 1003
+      uniqueId: Edit_Mode_Test.dll/Tests/Test_NM/[Edit_Mode_Test][Tests.Test_NM.Test_NMSimplePasses]
+      name: Test_NMSimplePasses
+      fullName: Tests.Test_NM.Test_NMSimplePasses
+      resultStatus: 1
+      duration: 0.0003032
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1002
+      parentUniqueId: Edit_Mode_Test.dll/Tests/[Edit_Mode_Test][Tests.Test_NM][suite]
+    - id: 1004
+      uniqueId: Edit_Mode_Test.dll/Tests/Test_NM/[Edit_Mode_Test][Tests.Test_NM.Test_NMWithEnumeratorPasses]
+      name: Test_NMWithEnumeratorPasses
+      fullName: Tests.Test_NM.Test_NMWithEnumeratorPasses
+      resultStatus: 1
+      duration: 0.0209099
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1002
+      parentUniqueId: Edit_Mode_Test.dll/Tests/[Edit_Mode_Test][Tests.Test_NM][suite]
+    m_ResultText: Test_NMSimplePasses (0.000s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: d60d1931
+      m_LastClickedID: 823725526
+      m_ExpandedIDs: 0bd656a861668bfc5dc5261494b944265f46d45629e32170ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
