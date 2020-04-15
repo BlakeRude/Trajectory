@@ -1,17 +1,19 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp.dll:
+    Main.dll:
+    - Ammo
     - Back
     - Camera
+    - Explosive
     - LandSelect
     - Player
-    - Player_Spawn_Land
-    - Player_Spawn_Space
-    - RandomSpawn
     - SeaSelect
     - SettingsCog
+    - SettingsMenu
     - SinglePlayerButton
     - SpaceSelect
+    - SpawnPlayer
+    - Weapon
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -20,9 +22,22 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.Dropdown
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    YL.dll:
+    - Player_Spawn_Land
+    - Player_Spawn_Space
+    - RandomSpawn
+    com.unity.multiplayer-hlapi.Runtime.dll:
+    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/src/Blake/Main Menu/Main Menu.unity:
     - Class: 1
@@ -43,11 +58,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
-    - Class: 81
+    - Class: 65
       Script: {instanceID: 0}
-    - Class: 102
+    - Class: 81
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -58,24 +75,40 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9696}
     - Class: 114
-      Script: {instanceID: 9864}
+      Script: {instanceID: 9866}
     - Class: 114
-      Script: {instanceID: 9912}
+      Script: {instanceID: 9914}
     - Class: 114
-      Script: {instanceID: 10334}
+      Script: {instanceID: 10274}
     - Class: 114
-      Script: {instanceID: 10746}
+      Script: {instanceID: 10324}
     - Class: 114
-      Script: {instanceID: 10962}
+      Script: {instanceID: 10344}
     - Class: 114
-      Script: {instanceID: 11246}
+      Script: {instanceID: 10376}
     - Class: 114
-      Script: {instanceID: 11530}
+      Script: {instanceID: 10762}
     - Class: 114
-      Script: {instanceID: 11646}
+      Script: {instanceID: 10790}
+    - Class: 114
+      Script: {instanceID: 10990}
+    - Class: 114
+      Script: {instanceID: 11274}
+    - Class: 114
+      Script: {instanceID: 11316}
+    - Class: 114
+      Script: {instanceID: 11378}
+    - Class: 114
+      Script: {instanceID: 11562}
+    - Class: 114
+      Script: {instanceID: 11678}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 143
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -109,19 +142,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9686}
     - Class: 114
-      Script: {instanceID: 9864}
+      Script: {instanceID: 9866}
     - Class: 114
-      Script: {instanceID: 9912}
+      Script: {instanceID: 9870}
     - Class: 114
-      Script: {instanceID: 9970}
+      Script: {instanceID: 9914}
     - Class: 114
-      Script: {instanceID: 10334}
+      Script: {instanceID: 9972}
     - Class: 114
-      Script: {instanceID: 10746}
+      Script: {instanceID: 10248}
     - Class: 114
-      Script: {instanceID: 11246}
+      Script: {instanceID: 10344}
     - Class: 114
-      Script: {instanceID: 11646}
+      Script: {instanceID: 10558}
+    - Class: 114
+      Script: {instanceID: 10762}
+    - Class: 114
+      Script: {instanceID: 11274}
+    - Class: 114
+      Script: {instanceID: 11662}
+    - Class: 114
+      Script: {instanceID: 11678}
+    - Class: 114
+      Script: {instanceID: 11692}
+    - Class: 114
+      Script: {instanceID: 11712}
+    - Class: 114
+      Script: {instanceID: 18020}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -166,23 +213,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9686}
     - Class: 114
-      Script: {instanceID: 9864}
+      Script: {instanceID: 9866}
     - Class: 114
-      Script: {instanceID: 9912}
+      Script: {instanceID: 9914}
     - Class: 114
-      Script: {instanceID: 10088}
+      Script: {instanceID: 10096}
     - Class: 114
-      Script: {instanceID: 10334}
+      Script: {instanceID: 10344}
     - Class: 114
-      Script: {instanceID: 10746}
+      Script: {instanceID: 10762}
     - Class: 114
-      Script: {instanceID: 10920}
+      Script: {instanceID: 10946}
     - Class: 114
-      Script: {instanceID: 11246}
+      Script: {instanceID: 11274}
     - Class: 114
-      Script: {instanceID: 11382}
+      Script: {instanceID: 11414}
     - Class: 114
-      Script: {instanceID: 11646}
+      Script: {instanceID: 11678}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -227,9 +274,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11530}
+      Script: {instanceID: 10700}
     - Class: 114
-      Script: {instanceID: 14296}
+      Script: {instanceID: 10964}
+    - Class: 114
+      Script: {instanceID: 11562}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -238,8 +287,6 @@ ScriptsOnlyBuild:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
@@ -255,21 +302,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11530}
+      Script: {instanceID: 10700}
     - Class: 114
-      Script: {instanceID: 14284}
-    - Class: 114
-      Script: {instanceID: 14298}
+      Script: {instanceID: 11562}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 143
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -301,9 +342,9 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11530}
+      Script: {instanceID: 10032}
     - Class: 114
-      Script: {instanceID: 14294}
+      Script: {instanceID: 11562}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -318,7 +359,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Main.dll
     namespaceName: 
     className: SinglePlayerButton
   - hash:
@@ -357,6 +398,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Main.dll
+    namespaceName: 
+    className: SpreadPiece
   - hash:
       serializedVersion: 2
       Hash: a5781dc71a671b1ad2b38de19f24b71f
@@ -420,7 +467,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Main.dll
     namespaceName: 
     className: Back
   - hash:
@@ -429,6 +476,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Main.dll
+    namespaceName: 
+    className: WeaponControlDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 00c17549d188fcba716fd41e9337ff5d
+    assemblyName: YL.dll
+    namespaceName: 
+    className: Player_Spawn_Space
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -456,7 +515,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Main.dll
     namespaceName: 
     className: SeaSelect
   - hash:
@@ -509,6 +568,12 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
+      Hash: 7b35a81e38fa2de27d7cd6704d3be4ce
+    assemblyName: Main.dll
+    namespaceName: 
+    className: Weapon
+  - hash:
+      serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -527,6 +592,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
+      Hash: 8f225721b0e2952446a870628af7b61c
+    assemblyName: Main.dll
+    namespaceName: 
+    className: Camera
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -537,6 +608,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Main.dll
+    namespaceName: 
+    className: Spread
   - hash:
       serializedVersion: 2
       Hash: 265cf27ba050d55ff33a8acab4ded6c0
@@ -593,6 +670,12 @@ ScriptsOnlyBuild:
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
+      Hash: 8152b9add353af7615f948b188725d45
+    assemblyName: Main.dll
+    namespaceName: 
+    className: SpawnPlayer
+  - hash:
+      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -603,6 +686,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Main.dll
+    namespaceName: 
+    className: Explosive
   - hash:
       serializedVersion: 2
       Hash: feb9a5a121d15fa3654d4e50a5233045
@@ -630,9 +719,15 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Main.dll
     namespaceName: 
     className: LandSelect
+  - hash:
+      serializedVersion: 2
+      Hash: 9c6eec38218710794bbf2ca4e9358e24
+    assemblyName: YL.dll
+    namespaceName: 
+    className: Player_Spawn_Land
   - hash:
       serializedVersion: 2
       Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
@@ -648,7 +743,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Main.dll
     namespaceName: 
     className: SettingsCog
   - hash:
@@ -663,12 +758,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
-  - hash:
-      serializedVersion: 2
-      Hash: f9af3783ac3ab43864c4a1aeecf38562
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Camera_Spawn
   - hash:
       serializedVersion: 2
       Hash: e1300922cc039f41ab46a47f4cb05898
@@ -690,7 +779,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: a11755e9448da724df9ec3d39ae00c1b
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: YL.dll
     namespaceName: 
     className: Player_Spawn
   - hash:
@@ -705,6 +794,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 45f1cb763869be9c876131ff931d45ec
+    assemblyName: Main.dll
+    namespaceName: 
+    className: Enemy
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -737,6 +832,18 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Main.dll
+    namespaceName: 
+    className: Ammo
+  - hash:
+      serializedVersion: 2
+      Hash: 45f1cb763869be9c876131ff931d45ec
+    assemblyName: Main.dll
+    namespaceName: 
+    className: Player
+  - hash:
+      serializedVersion: 2
       Hash: 1dcb82730d983b77cec736c6ef19f814
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
@@ -744,7 +851,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: Main.dll
     namespaceName: 
     className: SpaceSelect
   - hash:
@@ -774,7 +881,7 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: fe731173d4dfb7dbe20c6ea0fab1ea7a
-    assemblyName: Assembly-CSharp.dll
+    assemblyName: YL.dll
     namespaceName: 
     className: RandomSpawn
   - hash:
@@ -875,28 +982,16 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 655675a941ea756088027703b43352a4
+      Hash: d038ee32026da4b615a00b4ee4e21b25
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Camera
+    className: HealthDisplay
   - hash:
       serializedVersion: 2
-      Hash: 00c17549d188fcba716fd41e9337ff5d
-    assemblyName: Assembly-CSharp.dll
+      Hash: 864edab59addebe139bc2679142b3e77
+    assemblyName: Main.dll
     namespaceName: 
-    className: Player_Spawn_Space
-  - hash:
-      serializedVersion: 2
-      Hash: 9c6eec38218710794bbf2ca4e9358e24
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Player_Spawn_Land
-  - hash:
-      serializedVersion: 2
-      Hash: 45f1cb763869be9c876131ff931d45ec
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Player
+    className: SettingsMenu
   platform: 5
   scenePathNames:
   - Assets/src/Blake/Main Menu/Main Menu.unity
