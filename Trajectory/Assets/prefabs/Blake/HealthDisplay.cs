@@ -8,6 +8,6 @@ public class HealthDisplay  : MonoBehaviour
     public Text HP_displayed;
 
     void Update(){
-        HP_displayed.text = "HP: " + Player.Health; // Display Health value from Noah's Player.cs
+        //HP_displayed.text = "HP: " + Player.Health; // Display Health value from Noah's Player.cs
     }
 }

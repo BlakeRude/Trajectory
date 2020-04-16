@@ -53,7 +53,7 @@ public class SettingsMenu : MonoBehaviour
     // Used with the slider to change the Player's Mouse Sensitivity
     public void SetSensitivity (float sens)
     {
-        PlayerCamera.mouseSensitivity = sens;
+        //PlayerCamera.mouseSensitivity = sens;
     }
 
     //Used with Drop down to set Quality.

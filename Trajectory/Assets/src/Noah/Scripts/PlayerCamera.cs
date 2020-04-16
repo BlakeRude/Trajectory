@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerCamera : MonoBehaviour
 {
-    public static float mouseSensitivity;// = SettingsMenu.sens;
+    public static float mouseSensitivity = 150.0f;// = SettingsMenu.sens;
 
     public Transform playerBody;
 

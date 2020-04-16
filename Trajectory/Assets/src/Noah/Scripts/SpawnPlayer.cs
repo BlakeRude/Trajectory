@@ -30,7 +30,7 @@ public class SpawnPlayer : MonoBehaviour
     {
         player = (GameObject)Resources.Load("First Person Player", typeof(GameObject));
         spawnLocation = GameObject.FindGameObjectWithTag("SpawnPoint");
-        respawnLocation = player.transform.position;
+        respawnLocation = spawnLocation.transform.position;
         GameObject.Instantiate(player, spawnLocation.transform.position, Quaternion.identity);
     }
 }

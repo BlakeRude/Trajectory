@@ -17,7 +17,6 @@ public class Player : MonoBehaviour
 {
     public CharacterController controller;
 
-    private Vector3 Spawn;
     private Vector3 Velocity;     
 
     public float speed = 12f;
@@ -34,16 +33,22 @@ public class Player : MonoBehaviour
     void Start()
     {
         Health = 100.0f;
+        Debug.Log("Initial Health:" +Health);
     }
 
     // Update is called once per frame
     void Update()
     {
         movePlayer();
+        Debug.Log("Health:" + Health);
 
         if(Health <= 0)
         {
             controller.transform.position = SpawnPlayer.respawnLocation;
+            Debug.Log("Respawn Location:" + SpawnPlayer.respawnLocation);
+        }
+        if(Input.GetKey(KeyCode.F))
+        {
             Health = 100.0f;
         }
     }
@@ -51,7 +56,6 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter(Collider misc)
     {
         Health -= 50.0f;
-        Debug.Log("Health =" + Health);
     }
 
     private void movePlayer()
