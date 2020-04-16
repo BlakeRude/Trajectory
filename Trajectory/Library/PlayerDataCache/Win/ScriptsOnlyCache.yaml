@@ -23,6 +23,7 @@ ScriptsOnlyBuild:
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -42,6 +43,8 @@ ScriptsOnlyBuild:
     - Player_Spawn_Land
     - Player_Spawn_Space
     - RandomSpawn
+    com.unity.multiplayer-hlapi.Runtime.dll:
+    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/src/Blake/Main Menu/Main Menu.unity:
     - Class: 1
