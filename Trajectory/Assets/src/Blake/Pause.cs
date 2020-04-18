@@ -7,7 +7,6 @@ public class Pause : MonoBehaviour
 {
     public static bool GamePaused = false;
     public GameObject pausemenu;
-    //public GameObject Minimap;
 
     void Start()
     {
@@ -41,7 +40,6 @@ public class Pause : MonoBehaviour
 
     public void ResumeGame()
     {
-        //Minimap.SetActive(true);
         pausemenu.SetActive(false);
         Time.timeScale = 1f;
         GamePaused = false;
@@ -51,7 +49,6 @@ public class Pause : MonoBehaviour
 
     void PauseGame()
     {
-        //Minimap.SetActive(false);
         pausemenu.SetActive(true);
         Time.timeScale = 0f;
         GamePaused = true;
