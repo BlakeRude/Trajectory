@@ -5,6 +5,8 @@ ScriptsOnlyBuild:
     - Back
     - Explosive
     - LandSelect
+    - MinimapScript
+    - Pause
     - Player
     - PlayerCamera
     - SeaSelect
@@ -33,6 +35,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.Mask
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Shadow
@@ -75,6 +78,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -100,29 +105,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10406}
     - Class: 114
-      Script: {instanceID: 10806}
+      Script: {instanceID: 10532}
     - Class: 114
-      Script: {instanceID: 10834}
+      Script: {instanceID: 10808}
     - Class: 114
-      Script: {instanceID: 11038}
+      Script: {instanceID: 10836}
     - Class: 114
-      Script: {instanceID: 11062}
+      Script: {instanceID: 10838}
     - Class: 114
-      Script: {instanceID: 11080}
+      Script: {instanceID: 11040}
     - Class: 114
-      Script: {instanceID: 11276}
+      Script: {instanceID: 11064}
     - Class: 114
-      Script: {instanceID: 11342}
+      Script: {instanceID: 11082}
     - Class: 114
-      Script: {instanceID: 11388}
+      Script: {instanceID: 11278}
     - Class: 114
-      Script: {instanceID: 11458}
+      Script: {instanceID: 11344}
     - Class: 114
-      Script: {instanceID: 11530}
+      Script: {instanceID: 11390}
     - Class: 114
-      Script: {instanceID: 11658}
+      Script: {instanceID: 11460}
     - Class: 114
-      Script: {instanceID: 11772}
+      Script: {instanceID: 11532}
+    - Class: 114
+      Script: {instanceID: 11660}
+    - Class: 114
+      Script: {instanceID: 11774}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -175,27 +184,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10372}
     - Class: 114
-      Script: {instanceID: 10592}
+      Script: {instanceID: 10594}
     - Class: 114
-      Script: {instanceID: 10720}
+      Script: {instanceID: 10722}
     - Class: 114
-      Script: {instanceID: 10806}
+      Script: {instanceID: 10808}
     - Class: 114
-      Script: {instanceID: 11062}
+      Script: {instanceID: 11064}
     - Class: 114
-      Script: {instanceID: 11276}
+      Script: {instanceID: 11278}
     - Class: 114
-      Script: {instanceID: 11342}
+      Script: {instanceID: 11344}
     - Class: 114
-      Script: {instanceID: 11658}
+      Script: {instanceID: 11660}
     - Class: 114
-      Script: {instanceID: 11756}
+      Script: {instanceID: 11758}
     - Class: 114
-      Script: {instanceID: 11772}
+      Script: {instanceID: 11774}
     - Class: 114
-      Script: {instanceID: 11786}
+      Script: {instanceID: 11788}
     - Class: 114
-      Script: {instanceID: 11806}
+      Script: {instanceID: 11808}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -240,21 +249,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10372}
     - Class: 114
-      Script: {instanceID: 10806}
+      Script: {instanceID: 10808}
     - Class: 114
-      Script: {instanceID: 10992}
+      Script: {instanceID: 10994}
     - Class: 114
-      Script: {instanceID: 11062}
+      Script: {instanceID: 11064}
     - Class: 114
-      Script: {instanceID: 11276}
+      Script: {instanceID: 11278}
     - Class: 114
-      Script: {instanceID: 11342}
+      Script: {instanceID: 11344}
     - Class: 114
-      Script: {instanceID: 11498}
+      Script: {instanceID: 11500}
     - Class: 114
-      Script: {instanceID: 11658}
+      Script: {instanceID: 11660}
     - Class: 114
-      Script: {instanceID: 11772}
+      Script: {instanceID: 11774}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -299,14 +308,44 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 10742}
+      Script: {instanceID: 9708}
     - Class: 114
-      Script: {instanceID: 11012}
+      Script: {instanceID: 9938}
     - Class: 114
-      Script: {instanceID: 11652}
+      Script: {instanceID: 10372}
+    - Class: 114
+      Script: {instanceID: 10744}
+    - Class: 114
+      Script: {instanceID: 10808}
+    - Class: 114
+      Script: {instanceID: 11014}
+    - Class: 114
+      Script: {instanceID: 11064}
+    - Class: 114
+      Script: {instanceID: 11278}
+    - Class: 114
+      Script: {instanceID: 11344}
+    - Class: 114
+      Script: {instanceID: 11654}
+    - Class: 114
+      Script: {instanceID: 11660}
+    - Class: 114
+      Script: {instanceID: 11774}
+    - Class: 114
+      Script: {instanceID: 21964}
     - Class: 115
       Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/src/Yingruo/Scenes/Sea_Scene.unity:
     - Class: 1
@@ -325,6 +364,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 104
@@ -332,12 +373,50 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 10742}
+      Script: {instanceID: 9708}
     - Class: 114
-      Script: {instanceID: 11652}
+      Script: {instanceID: 9938}
+    - Class: 114
+      Script: {instanceID: 10350}
+    - Class: 114
+      Script: {instanceID: 10372}
+    - Class: 114
+      Script: {instanceID: 10744}
+    - Class: 114
+      Script: {instanceID: 10808}
+    - Class: 114
+      Script: {instanceID: 10836}
+    - Class: 114
+      Script: {instanceID: 11064}
+    - Class: 114
+      Script: {instanceID: 11278}
+    - Class: 114
+      Script: {instanceID: 11344}
+    - Class: 114
+      Script: {instanceID: 11390}
+    - Class: 114
+      Script: {instanceID: 11654}
+    - Class: 114
+      Script: {instanceID: 11660}
+    - Class: 114
+      Script: {instanceID: 11774}
+    - Class: 114
+      Script: {instanceID: 21964}
     - Class: 115
       Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/src/Yingruo/Scenes/Space.unity:
     - Class: 1
@@ -367,12 +446,42 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 9708}
+    - Class: 114
+      Script: {instanceID: 9938}
+    - Class: 114
       Script: {instanceID: 10056}
     - Class: 114
-      Script: {instanceID: 11652}
+      Script: {instanceID: 10372}
+    - Class: 114
+      Script: {instanceID: 10808}
+    - Class: 114
+      Script: {instanceID: 11064}
+    - Class: 114
+      Script: {instanceID: 11278}
+    - Class: 114
+      Script: {instanceID: 11344}
+    - Class: 114
+      Script: {instanceID: 11654}
+    - Class: 114
+      Script: {instanceID: 11660}
+    - Class: 114
+      Script: {instanceID: 11774}
+    - Class: 114
+      Script: {instanceID: 21964}
     - Class: 115
       Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -687,6 +796,12 @@ ScriptsOnlyBuild:
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
     className: NetworkTransformVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 65b3a3b9a7779d539ec75a3ceddebdba
+    assemblyName: Main.dll
+    namespaceName: 
+    className: MinimapScript
   - hash:
       serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
@@ -1215,6 +1330,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 9e1daa733101e00ac01328a38943c9b2
+    assemblyName: Main.dll
+    namespaceName: 
+    className: Pause
   platform: 5
   scenePathNames:
   - Assets/src/Blake/Main Menu/Main Menu.unity
