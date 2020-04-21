@@ -16,46 +16,125 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public CharacterController controller;
+    private Weapon cannon;
 
-    private Vector3 Velocity;     
+    //in realtion to camera switching
+    public Camera playerCam;
+    public Camera cannonCam;
+    bool inCannonView = false;
 
-    public float speed = 12f;
+    //in realtion to in-game stats
+    public static float Health = 100.0f;
+    private Ammo inv;
+    private Ammo melon;
+    private Ammo bomb;
+    public float ammoCollectDistance = 3;
+    public float cannonViewDistance = 2;
+    
+    //in relation to player physics **
+    private Vector3 Velocity;
+    public float speed = 8f;
+
+    //in relation to player falling/gravity
     public float gravity = -9.8f;
-
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
-
-    public static float Health;
-
     bool isGrounded;
 
     void Start()
     {
-        Health = 100.0f;
-        Debug.Log("Initial Health:" +Health);
+        playerSetup();
     }
 
     // Update is called once per frame
     void Update()
     {
         movePlayer();
-        Debug.Log("Health:" + Health);
 
-        if(Health <= 0)
+        if (Health <= 0)
         {
             controller.transform.position = SpawnPlayer.respawnLocation;
             Debug.Log("Respawn Location:" + SpawnPlayer.respawnLocation);
-        }
-        if(Input.GetKey(KeyCode.F))
-        {
+
             Health = 100.0f;
         }
+
+        //debugging info
+        Debug.Log("Health:" + Health);
+        Debug.Log("In Cannon View?: " +inCannonView);
+        Debug.Log("Inventory: " + inv);
+
+        handleAmmo();
+        handleWeapon();
     }
 
     private void OnTriggerEnter(Collider misc)
     {
         Health -= 50.0f;
+    }
+
+    private void playerSetup()
+    {
+        cannon = GameObject.Find("CannonA").GetComponent<Weapon>();
+        melon = GameObject.Find("Watermelon").GetComponent<Ammo>();
+        bomb = GameObject.Find("Bomb").GetComponent<Ammo>();
+
+        playerCam = GameObject.Find("Main Camera").GetComponent<Camera>();
+        cannonCam = GameObject.Find("Cannon Camera").GetComponent<Camera>();
+
+        playerCam.enabled = true;
+        cannonCam.enabled = false;
+    }
+
+    private void handleAmmo()
+    {
+        if (Input.GetKey(KeyCode.P))
+        {
+            inv = null;
+        }
+
+        if (inv == null && Input.GetKey(KeyCode.E))
+        {
+            if (Vector3.Distance(controller.transform.position, melon.transform.position) < ammoCollectDistance)
+            {
+                inv = melon.PickUp();
+            }
+            else if (Vector3.Distance(controller.transform.position, bomb.transform.position) < ammoCollectDistance)
+            {
+                inv = bomb.PickUp();
+            }
+        }
+    }
+
+    private void handleWeapon()
+    {
+        if ( (Vector3.Distance(controller.transform.position, cannon.transform.position) <  cannonViewDistance) && Input.GetMouseButtonDown(0) && inCannonView == false)
+        {
+            playerCam.enabled = !playerCam.enabled;
+            cannonCam.enabled = !cannonCam.enabled;
+
+            inCannonView = true;
+        }
+        else if( inCannonView == true )
+        {
+            if ( Input.GetMouseButtonDown(1) )
+            {
+                playerCam.enabled = !playerCam.enabled;
+                cannonCam.enabled = !cannonCam.enabled;
+
+                inCannonView = false;
+            }
+            if(Input.GetKey(KeyCode.R) && inv != null)
+            {
+                cannon.Load(ref inv);
+                inv = null;
+            }
+            if(Input.GetKey(KeyCode.F))
+            {
+                cannon.Fire();
+            }
+        }
     }
 
     private void movePlayer()
