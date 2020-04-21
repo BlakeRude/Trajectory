@@ -120,6 +120,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &46338712 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3735823609542653568, guid: a59f76bd096537349b826ded59d7ef26,
+    type: 3}
+  m_PrefabInstance: {fileID: 583999836}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &63001710
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -348,13 +354,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 127541089}
-  m_LocalRotation: {x: 0, y: 0, z: -0.026176924, w: 0.99965733}
-  m_LocalPosition: {x: -0.039, y: 0.068, z: 1.021}
-  m_LocalScale: {x: 1.0001903, y: 1.0003884, z: 1.0001997}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.31}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 601194933}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -3}
+  m_Father: {fileID: 46338712}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!81 &127541091
 AudioListener:
   m_ObjectHideFlags: 0
@@ -388,7 +394,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 24
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -775,17 +781,17 @@ PrefabInstance:
     - target: {fileID: 4767301581150605624, guid: 3be0755c159bd8a40ad30aa4cdf878a0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.656
+      value: 0.613
       objectReference: {fileID: 0}
     - target: {fileID: 4767301581150605624, guid: 3be0755c159bd8a40ad30aa4cdf878a0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.327
+      value: -0.332
       objectReference: {fileID: 0}
     - target: {fileID: 4767301581150605624, guid: 3be0755c159bd8a40ad30aa4cdf878a0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.354
+      value: 0.171
       objectReference: {fileID: 0}
     - target: {fileID: 4767301581150605624, guid: 3be0755c159bd8a40ad30aa4cdf878a0,
         type: 3}
@@ -850,7 +856,7 @@ PrefabInstance:
     - target: {fileID: 4767301581195373749, guid: 3be0755c159bd8a40ad30aa4cdf878a0,
         type: 3}
       propertyPath: m_Constraints
-      value: 112
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3be0755c159bd8a40ad30aa4cdf878a0, type: 3}
@@ -967,17 +973,17 @@ PrefabInstance:
     - target: {fileID: 708476146649050873, guid: d337ca52730ec7b48a624145f2be8ed3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.1743
+      value: -0.058
       objectReference: {fileID: 0}
     - target: {fileID: 708476146649050873, guid: d337ca52730ec7b48a624145f2be8ed3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1513
+      value: -1.15
       objectReference: {fileID: 0}
     - target: {fileID: 708476146649050873, guid: d337ca52730ec7b48a624145f2be8ed3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.4215
+      value: 0.264
       objectReference: {fileID: 0}
     - target: {fileID: 708476146649050873, guid: d337ca52730ec7b48a624145f2be8ed3,
         type: 3}
@@ -1042,7 +1048,7 @@ PrefabInstance:
     - target: {fileID: 5525837044140371675, guid: d337ca52730ec7b48a624145f2be8ed3,
         type: 3}
       propertyPath: m_Constraints
-      value: 112
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d337ca52730ec7b48a624145f2be8ed3, type: 3}
@@ -1378,12 +1384,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 599906946}
   m_Mesh: {fileID: 8374197122670411534, guid: 5d03e0e62fb814867a854b5e56251b89, type: 3}
---- !u!4 &601194933 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3735374149394048949, guid: a59f76bd096537349b826ded59d7ef26,
-    type: 3}
-  m_PrefabInstance: {fileID: 583999836}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &674138725
 PrefabInstance:
   m_ObjectHideFlags: 0
