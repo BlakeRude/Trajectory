@@ -15,7 +15,8 @@ public class WeaponControlDemo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        cannon = GameObject.Find("Small_Cannon").GetComponent<Weapon>();
+        //cannon = GameObject.Find("Small_Cannon").GetComponent<Weapon>();
+        cannon = GameObject.Find("msfmc_RadarDish").GetComponent<Weapon>();
         spikeBall = GameObject.Find("SpikeBall").GetComponent<Ammo>();
         bombBall = GameObject.Find("BombBall").GetComponent<Ammo>();
         eyeBall = GameObject.Find("EyeBall").GetComponent<Ammo>();
