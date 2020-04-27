@@ -15,12 +15,14 @@ public class Weapon : MonoBehaviour
     public string vAxis = "x";
     public float hMult = 1f;
     public float vMult = -1f;
+    public string angleType = "quat"; 
 
     private float power = 2000f;
-    private Quaternion rotationOffset;
 
     private Transform cannonTransform;
     private Transform cannonBodyTransform;
+    private Vector3 startRotation;
+    private Vector3 startBodyRotation;
 
     public float cooldownTime = 3f;
     private float cooldownOver;
@@ -30,41 +32,26 @@ public class Weapon : MonoBehaviour
         cannonBody = GameObject.Find("Small_cannon");
         cannonTransform = GetComponent<Transform>();
         cannonBodyTransform = cannonTransform.GetChild(0);
-        rotationOffset = cannonTransform.rotation;
+        startRotation = cannonTransform.rotation.eulerAngles;
+        startBodyRotation = cannonBodyTransform.rotation.eulerAngles;
     }
 
     public void Fire() {
         Vector3 force = new Vector3(0,0,power);
 
-        // switch(hAxis) {
-        //     case "x":
-        //        force.x = hMult*power*cannonTransform.rotation.x;
-        //         break;
-        //     case "y":
-                 force.x = hMult*power*cannonTransform.rotation.y;
-        //         break;
-        //     case "z":
-        //         force.x = hMult*power*cannonTransform.rotation.z;
-        //         break;
-        // }
+        if(angleType == "quat") {
+            force.Set(power*cannonTransform.rotation.y,-power*cannonBodyTransform.rotation.x,power);
+        } else {
+            force.x = hMult*power*(cannonTransform.rotation.eulerAngles.y - startRotation.y)/((maxH - minH)*100f);
+            force.y = vMult*power*(cannonBodyTransform.rotation.eulerAngles.z - startBodyRotation.z)/((maxV - minV)*100f);
+        }
 
-        // switch(vAxis) {
-        //     case "x":
-        //        force.y = vMult*power*cannonBodyTransform.rotation.x;
-        //         break;
-        //     case "y":
-                 force.y = vMult*power*cannonBodyTransform.rotation.y;
-        //         break;
-        //     case "z":
-        //         force.y = vMult*power*cannonBodyTransform.rotation.z;
-        //         break;
-        // }
-        Debug.Log(cannonTransform.rotation);
+        Debug.Log(force);
         if(!CheckCooldown()) {
             return;
         }
         if(currentAmmo != null) {
-            //force = new Vector3(power*cannonTransform.rotation.y,-power*cannonBodyTransform.rotation.x,power);
+            
             currentAmmo.Fire(force);
             currentAmmo = null;
             cooldownOver = Time.time + cooldownTime;
