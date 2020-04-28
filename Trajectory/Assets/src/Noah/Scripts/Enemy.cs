@@ -6,6 +6,8 @@ using UnityEngine;
 [System.Serializable]
 public class Enemy : Player
 {
+    public float difficulty = 1.0f;
+
     // Start is called before the first frame update
     void Start()
     {

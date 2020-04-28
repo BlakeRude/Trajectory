@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
     public float ammoCollectDistance = 3;
     public float cannonViewDistance = 2;
     
-    //in relation to player physics **
+    //in relation to player physics
     private Vector3 Velocity;
     public float speed = 8f;
 
@@ -51,6 +51,8 @@ public class Player : MonoBehaviour
     void Update()
     {
         movePlayer();
+        handleAmmo();
+        handleWeapon();
 
         if (Health <= 0)
         {
@@ -65,8 +67,7 @@ public class Player : MonoBehaviour
         Debug.Log("In Cannon View?: " +inCannonView);
         Debug.Log("Inventory: " + inv);
 
-        handleAmmo();
-        handleWeapon();
+        
     }
 
     private void OnTriggerEnter(Collider misc)
@@ -96,11 +97,11 @@ public class Player : MonoBehaviour
 
         if (inv == null && Input.GetKey(KeyCode.E))
         {
-            if (Vector3.Distance(controller.transform.position, melon.transform.position) < ammoCollectDistance)
+            if (Vector3.Distance(controller.transform.position, melon.transform.position) <= ammoCollectDistance)
             {
                 inv = melon.PickUp();
             }
-            else if (Vector3.Distance(controller.transform.position, bomb.transform.position) < ammoCollectDistance)
+            else if (Vector3.Distance(controller.transform.position, bomb.transform.position) <= ammoCollectDistance)
             {
                 inv = bomb.PickUp();
             }
@@ -109,6 +110,10 @@ public class Player : MonoBehaviour
 
     private void handleWeapon()
     {
+        float x = Input.GetAxis("Horizontal");
+        float z = Input.GetAxis("Vertical");
+
+
         if ( (Vector3.Distance(controller.transform.position, cannon.transform.position) <  cannonViewDistance) && Input.GetMouseButtonDown(0) && inCannonView == false)
         {
             playerCam.enabled = !playerCam.enabled;
@@ -118,6 +123,9 @@ public class Player : MonoBehaviour
         }
         else if( inCannonView == true )
         {
+            if (x != 0f ) cannon.AimH(x);
+            if(z != 0f) cannon.AimV(-z);
+
             if ( Input.GetMouseButtonDown(1) )
             {
                 playerCam.enabled = !playerCam.enabled;
@@ -156,7 +164,7 @@ public class Player : MonoBehaviour
         Vector3 move = transform.right * x + transform.forward * z;
 
         //moves player controller and subsequently everthing that is a child to it
-        controller.Move(move * speed * Time.deltaTime);
+        if(inCannonView == false) controller.Move(move * speed * Time.deltaTime);
 
         //the below handles character gravity multiplying by deltaTime keeps the movement frame rate independent
         Velocity.y += gravity * Time.deltaTime;

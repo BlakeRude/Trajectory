@@ -11,6 +11,7 @@ using UnityEngine;
  * prefab as well as storing respawn locations
  */
 
+[System.Serializable]
 public class SpawnPlayer : MonoBehaviour
 {
     public GameObject spawnLocation;
@@ -23,10 +24,11 @@ public class SpawnPlayer : MonoBehaviour
     void Start()
     {
         //delaying the spawn player method allows the level to ranomize before spawning the player
-        Invoke("spawnPlayer", 0.01f);
+        Invoke("Spawn", 0.01f);
     }
 
-    private void spawnPlayer()
+    //SpawnPlayer : MonoBehaviour
+    private void Spawn()
     {
         player = (GameObject)Resources.Load("First Person Player", typeof(GameObject));
         spawnLocation = GameObject.FindGameObjectWithTag("SpawnPoint");
