@@ -7,12 +7,15 @@ using UnityEngine.UI;
 
 public class SettingsMenu : MonoBehaviour
 {
+    //GameObject settingsback = new Back();
+    
     public static float sens = 100f;
 
     public Dropdown resolutionDropdown;
 
     Resolution[] resolutions;
 
+    //Start of my REUSE
     void Start ()
     {
         resolutions = Screen.resolutions;
@@ -44,7 +47,8 @@ public class SettingsMenu : MonoBehaviour
         Resolution resolution = resolutions[resolutionIndex];
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
-
+    //End of my REUSE
+    
     public void SetFullscreen (bool isFullscreen)
     {
         Screen.fullScreen = isFullscreen;
