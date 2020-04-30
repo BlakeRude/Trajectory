@@ -2,26 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ammo : MonoBehaviour
+public abstract class Ammo : MonoBehaviour
 {
-    private float damage = 5f;
-    private float weight = 1f;
+    public abstract float GetDamage();
 
-    public float GetDamage() {
-        return damage;
+    public abstract Ammo PickUp();
+
+    public abstract void Fire(Vector3 force);
+
+    public abstract void UnPickUp();
+}
+
+class NullAmmo : Ammo {
+    public override float GetDamage() {
+        return 0f;
     }
 
-    public Ammo PickUp() {
-        gameObject.SetActive(false);
-        return this;
+    public override Ammo PickUp() {
+        return null;
     }
 
-    public virtual void Fire(Vector3 force) {
-        gameObject.SetActive(true);
-        GetComponent<Rigidbody>().AddForce(force);
+    public override void Fire(Vector3 force) {
+        //do nothing
     }
 
-    public void UnPickUp() {
-
+    public override void UnPickUp() {
+        //do nothing
     }
 }

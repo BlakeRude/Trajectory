@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Explosive : Ammo
+class Explosive : RealAmmo
 {
     private float radius = 10f;
     private float timeToExplode = 2f;
