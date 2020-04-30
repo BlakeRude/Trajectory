@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    private GameObject cannonBody;
+    private GameObject cannonBody;  //the vertically-adjustable barrel of the cannon
 
     public float minH = -60f/180f;
     public float minV = -40f/180f;
@@ -15,7 +15,7 @@ public class Weapon : MonoBehaviour
     public string vAxis = "x";
     public float hMult = 1f;
     public float vMult = -1f;
-    public string angleType = "quat"; 
+    public string angleType = "quat"; //some weapons won't work with Quaternion angles, so they need to use Euler angles instead
 
     private float power = 2000f;
 
@@ -46,12 +46,11 @@ public class Weapon : MonoBehaviour
             force.y = vMult*power*(cannonBodyTransform.rotation.eulerAngles.z - startBodyRotation.z)/((maxV - minV)*100f);
         }
 
-        Debug.Log(force);
         if(!CheckCooldown()) {
+            //Weapon has not cooled down yet
             return;
         }
         if(currentAmmo != null) {
-            
             currentAmmo.Fire(force);
             currentAmmo = null;
             cooldownOver = Time.time + cooldownTime;
@@ -59,6 +58,7 @@ public class Weapon : MonoBehaviour
     }
 
     public void AimH(float offset) {
+        //Each weapon asset is built slightly differently, so this method uses the specific axis for this weapon
         switch(hAxis) {
             case "x":
                 if((cannonTransform.rotation.x > minH || offset > 0f) && (cannonTransform.rotation.x < maxH || offset < 0f)) {
@@ -79,6 +79,7 @@ public class Weapon : MonoBehaviour
     }
 
     public void AimV(float offset) {
+        //Each weapon asset is built slightly differently, so this method uses the specific axis for this weapon
         switch(vAxis) {
             case "x":
                 if((cannonBodyTransform.rotation.x > minV || offset > 0f) && (cannonBodyTransform.rotation.x < maxV || offset < 0f)) {

@@ -21,6 +21,6 @@ class RealAmmo : Ammo {
     }
 
     public override void UnPickUp() {
-
+        //this method would allow the player to drop the ammo they are currently holding
     }
 }
