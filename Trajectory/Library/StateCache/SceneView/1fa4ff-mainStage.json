@@ -1,6 +1,5 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":0.5627866983413696,"y":2.1594488620758058,"z":-3.931246280670166},"rotation":{"x":0.25027042627334597,"y":-0.0783236026763916,"z":0.02031700126826763,"w":0.964790940284729},"size":56.61882019042969,"orthographic":false}
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":621.5671997070313,"y":15.640352249145508,"z":199.63711547851563},"rotation":{"x":0.11703870445489884,"y":0.005954253952950239,"z":-0.0007022758945822716,"w":0.9931110739707947},"size":99.06222534179688,"orthographic":false}
@@ -8,6 +7,3 @@
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":621.5671997070313,"y":15.640352249145508,"z":199.63711547851563},"rotation":{"x":0.11703870445489884,"y":0.005954253952950239,"z":-0.0007022758945822716,"w":0.9931110739707947},"size":99.06222534179688,"orthographic":false}
 >>>>>>> parent of 0f5cfa63... More and more refined
-=======
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":502.8511962890625,"y":2.620565891265869,"z":200.0726318359375},"rotation":{"x":0.10588447004556656,"y":0.8463000655174255,"z":-0.18331286311149598,"w":0.48883986473083498},"size":2.9581472873687746,"orthographic":false}
->>>>>>> parent of 709a66a9... Created effects when collides on surface
