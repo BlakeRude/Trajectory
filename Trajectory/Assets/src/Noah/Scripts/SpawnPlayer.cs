@@ -17,7 +17,7 @@ public class SpawnPlayer : MonoBehaviour
     public GameObject spawnLocation;
     public GameObject player;
 
-    //making this static lets me use it to respawn the player in the player class
+    //making this static lets me use it to respawn with player in the player class
     public static Vector3 respawnLocation;
 
     // Start is called before the first frame update
@@ -34,5 +34,9 @@ public class SpawnPlayer : MonoBehaviour
         spawnLocation = GameObject.FindGameObjectWithTag("SpawnPoint");
         respawnLocation = spawnLocation.transform.position;
         GameObject.Instantiate(player, spawnLocation.transform.position, Quaternion.identity);
+
+        Debug.Log("Spawn Point:" + spawnLocation);
+        Debug.Log("Respawn Location:" + respawnLocation);
     }
+
 }

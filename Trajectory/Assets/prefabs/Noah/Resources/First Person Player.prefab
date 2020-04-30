@@ -526,6 +526,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 8528591413325577289}
+  playerCam: {fileID: 0}
+  cannonCam: {fileID: 0}
+  ammoCollectDistance: 3
+  cannonViewDistance: 2
   speed: 8
   gravity: -9.8
   groundCheck: {fileID: 8528591412690907435}
@@ -590,7 +594,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ac89eaa3dc3f05d4488a97c6133222bd, type: 2}
+  - {fileID: 2100000, guid: 1779bf19314c97d4a861932f60257588, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
