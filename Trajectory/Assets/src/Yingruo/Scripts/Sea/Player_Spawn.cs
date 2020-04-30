@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player_Spawn : MonoBehaviour
+public class Bird_Spawn : MonoBehaviour
 {
     
     public Vector3 Spawn;
