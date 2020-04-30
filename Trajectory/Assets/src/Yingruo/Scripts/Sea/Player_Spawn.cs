@@ -15,7 +15,7 @@ public class Player_Spawn : Bird_Spawn
     }
 
     
-    public virtual void Spawning()
+    void Spawning()
     {
         Spawn= GameObject. Find("Player_Ship").transform.position;//find base and store the position
         //adjust the player position
