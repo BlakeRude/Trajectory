@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player_Spawn : MonoBehaviour
+public class Player_Spawn : Bird_Spawn
 {
     
     public Vector3 Spawn;
@@ -15,7 +15,7 @@ public class Player_Spawn : MonoBehaviour
     }
 
     
-    void Spawning()
+    public virtual void Spawning()
     {
         Spawn= GameObject. Find("Player_Ship").transform.position;//find base and store the position
         //adjust the player position
