@@ -9,7 +9,7 @@ namespace Tests
     public class Tests_YL
     {
         [UnityTest]
-        public IEnumerator Boundarytest()
+        public IEnumerator StopBouncing()
         {
             SetupScene();
             MonoBehaviour.Instantiate(Resources.Load<GameObject>("Player"));
@@ -76,7 +76,7 @@ namespace Tests
         void SetupScene()
         {
             MonoBehaviour.Instantiate(Resources.Load<GameObject> ("Player_Ship"));
-            MonoBehaviour.Instantiate(Resources.Load<GameObject>("First Person Player"));
+            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Player"));
             MonoBehaviour.Instantiate(Resources.Load<GameObject>("Directional Light"));
             MonoBehaviour.Instantiate(Resources.Load<GameObject>("Main Camera"));
         }
