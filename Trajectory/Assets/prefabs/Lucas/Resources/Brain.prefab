@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 5983090992077883287}
   - component: {fileID: 6047095524161555900}
   - component: {fileID: 6047095524161555899}
-  - component: {fileID: 6047095524161555898}
+  - component: {fileID: 2488749078085806183}
   m_Layer: 0
   m_Name: Brain
   m_TagString: Untagged
@@ -157,7 +157,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: a6b73af82da0ef4488c3213b8ee6cc00, type: 3}
---- !u!114 &6047095524161555898
+--- !u!114 &2488749078085806183
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -166,6 +166,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 6048011225765585647}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed07f9acbd8c08849b6bebba6b356008, type: 3}
+  m_Script: {fileID: 11500000, guid: 4751487f1c566ea44a3a164d56053201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

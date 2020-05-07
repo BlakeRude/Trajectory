@@ -11,7 +11,8 @@ public class SpreadPiece: MonoBehaviour
         return damage;
     }
 
-    public void Fire() {
-
+    public void Fire(Vector3 force) {
+        gameObject.SetActive(true);
+        GetComponent<Rigidbody>().AddForce(force);
     }
 }

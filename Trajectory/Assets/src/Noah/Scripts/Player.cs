@@ -5,10 +5,6 @@ using UnityEngine;
 /*
  * Player.cs
  * my player class for Trajectory
- * 
- * 
- * 
- * 
  */
 
 
@@ -30,7 +26,8 @@ public class Player : MonoBehaviour
     private Ammo bomb;
     public float ammoCollectDistance = 3;
     public float cannonViewDistance = 2;
-    
+    private Vector3 respawnLoc = SpawnPlayer.respawnLocation;
+
     //in relation to player physics
     private Vector3 Velocity;
     public float speed = 8f;
@@ -54,14 +51,8 @@ public class Player : MonoBehaviour
         handleAmmo();
         handleWeapon();
 
-        if (Health <= 0)
-        {
-            controller.transform.position = SpawnPlayer.respawnLocation;
-            Debug.Log("Respawn Location:" + SpawnPlayer.respawnLocation);
-
-            Health = 100.0f;
-        }
-
+        if (Health <= 0) respawnPlayer();
+        
         //debugging info
         Debug.Log("Health:" + Health);
         Debug.Log("In Cannon View?: " +inCannonView);
@@ -70,11 +61,13 @@ public class Player : MonoBehaviour
         
     }
 
+    //handles collision with object that have "isTrigger" ticked
     private void OnTriggerEnter(Collider misc)
     {
         Health -= 50.0f;
     }
 
+    //assigns ingame object to be interactable with player as well as establish camera view
     private void playerSetup()
     {
         cannon = GameObject.Find("CannonA").GetComponent<Weapon>();
@@ -88,6 +81,17 @@ public class Player : MonoBehaviour
         cannonCam.enabled = false;
     }
 
+    //self-explanatory
+    private void respawnPlayer()
+    {
+        controller.transform.position = respawnLoc;
+        Debug.Log("RespawnLoc: " + respawnLoc);
+        Debug.Log("Respawned At: " + controller.transform.position);
+    
+        if(Input.GetKey(KeyCode.P)) Health = 100.0f;
+    }
+
+    //integrates Lucas' ammo code/prefabs with player
     private void handleAmmo()
     {
         if (Input.GetKey(KeyCode.P))
@@ -108,11 +112,11 @@ public class Player : MonoBehaviour
         }
     }
 
+    //integrates Lucas' weapon code with player and integrates their interaction
     private void handleWeapon()
     {
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
-
 
         if ( (Vector3.Distance(controller.transform.position, cannon.transform.position) <  cannonViewDistance) && Input.GetMouseButtonDown(0) && inCannonView == false)
         {
